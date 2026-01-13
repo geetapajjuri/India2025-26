@@ -1,0 +1,1 @@
+From the sacred hills of Tirupati to the golden sands of Jaisalmer, this photo journal captures ten unforgettable days exploring India's rich heritage, breathtaking landscapes, and warm hospitality. Join us as we relive the magic of ancient temples, royal palaces, and New Year's celebrations under the desert stars.
