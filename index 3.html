@@ -1,0 +1,2350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>India 2025-26 - A Journey Through Incredible India</title>
+  <meta name="description" content="Photo journal from India 2025-26 trip, Dec 25, 2025 – Jan 3, 2026. Explore Tirupati, Jaipur, Taj Mahal, Jodhpur, and Jaisalmer through stunning photographs and warm stories.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0a0a0a;
+      min-height: 100vh;
+      color: #ffffff;
+      line-height: 1.7;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 30%, #0f3460 60%, #e94560 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="1" fill="rgba(255,255,255,0.1)"/></svg>');
+      background-size: 50px 50px;
+      opacity: 0.3;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(3rem, 8vw, 6rem);
+      font-weight: 700;
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, #ffd700, #ff6b35, #e91e63);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 0.5rem;
+      font-weight: 300;
+    }
+
+    .hero-date {
+      font-size: 1rem;
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 2rem;
+    }
+
+    .hero-intro {
+      font-size: 1.1rem;
+      color: rgba(255, 255, 255, 0.8);
+      max-width: 700px;
+      margin: 0 auto 3rem;
+      line-height: 1.8;
+    }
+
+    .scroll-indicator {
+      position: absolute;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      animation: bounce 2s infinite;
+    }
+
+    .scroll-indicator svg {
+      width: 30px;
+      height: 30px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+      40% { transform: translateX(-50%) translateY(-10px); }
+      60% { transform: translateX(-50%) translateY(-5px); }
+    }
+
+    .sticky-nav {
+      position: sticky;
+      top: 0;
+      background: rgba(10, 10, 10, 0.95);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      z-index: 100;
+      padding: 1rem 0;
+      overflow-x: auto;
+    }
+
+    .nav-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .nav-link {
+      color: rgba(255, 255, 255, 0.7);
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 25px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      white-space: nowrap;
+    }
+
+    .nav-link:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .location-section {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 5rem 1.5rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .location-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .location-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(135deg, #ffd700, #ff9500);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .location-subtitle {
+      font-size: 1.1rem;
+      color: rgba(255, 255, 255, 0.6);
+      font-style: italic;
+    }
+
+    .location-content {
+      display: grid;
+      gap: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    @media (min-width: 900px) {
+      .location-content {
+        grid-template-columns: 2fr 1fr;
+      }
+    }
+
+    .location-description {
+      color: rgba(255, 255, 255, 0.85);
+      font-size: 1.05rem;
+    }
+
+    .location-description p {
+      margin-bottom: 1.5rem;
+    }
+
+    .location-highlights {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 1.5rem;
+    }
+
+    .location-highlights h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+      color: #ffd700;
+    }
+
+    .location-highlights ul {
+      list-style: none;
+    }
+
+    .location-highlights li {
+      padding: 0.5rem 0;
+      padding-left: 1.5rem;
+      position: relative;
+      color: rgba(255, 255, 255, 0.75);
+      font-size: 0.95rem;
+    }
+
+    .location-highlights li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 8px;
+      height: 8px;
+      background: linear-gradient(135deg, #ffd700, #ff6b35);
+      border-radius: 50%;
+    }
+
+    .location-gallery {
+      columns: 4;
+      column-gap: 1rem;
+    }
+
+    @media (max-width: 1200px) {
+      .location-gallery { columns: 3; }
+    }
+
+    @media (max-width: 768px) {
+      .location-gallery { columns: 2; }
+    }
+
+    @media (max-width: 480px) {
+      .location-gallery { columns: 1; }
+    }
+
+    .photo-card {
+      break-inside: avoid;
+      margin-bottom: 1rem;
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .photo-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    }
+
+    .photo-card img {
+      width: 100%;
+      display: block;
+      transition: transform 0.4s ease;
+    }
+
+    .photo-card:hover img {
+      transform: scale(1.05);
+    }
+
+    .photo-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 1rem;
+      background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .photo-card:hover .photo-overlay {
+      opacity: 1;
+    }
+
+    .photo-number {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+
+    /* Video cards */
+    .video-card video {
+      width: 100%;
+      display: block;
+      transition: transform 0.4s ease;
+      object-fit: cover;
+    }
+
+    .video-card:hover video {
+      transform: scale(1.05);
+    }
+
+    .video-play-icon {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 64px;
+      height: 64px;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      transition: all 0.3s ease;
+      pointer-events: none;
+    }
+
+    .video-card:hover .video-play-icon {
+      background: rgba(232, 121, 59, 0.9);
+      transform: translate(-50%, -50%) scale(1.1);
+    }
+
+    /* Lightbox */
+    .lightbox {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.97);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .lightbox.active {
+      display: flex;
+    }
+
+    .lightbox-content {
+      max-width: 90vw;
+      max-height: 90vh;
+      position: relative;
+    }
+
+    .lightbox-content img,
+    .lightbox-content video {
+      max-width: 100%;
+      max-height: 90vh;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+
+    .lightbox-content video {
+      background: #000;
+    }
+
+    .lightbox-close {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      color: white;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s ease;
+    }
+
+    .lightbox-close:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .lightbox-nav {
+      position: fixed;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255, 255, 255, 0.1);
+      border: none;
+      color: white;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s ease;
+    }
+
+    .lightbox-nav:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .lightbox-prev { left: 20px; }
+    .lightbox-next { right: 20px; }
+
+    .lightbox-counter {
+      position: fixed;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(255, 255, 255, 0.1);
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      font-size: 0.9rem;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 4rem 1.5rem;
+      background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.02));
+    }
+
+    .footer-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .footer p {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .footer a {
+      color: #ffd700;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>India 2025-26</h1>
+      <p class="hero-subtitle">A Journey Through Incredible India</p>
+      <p class="hero-date">Dec 25, 2025 – Jan 3, 2026</p>
+      <p class="hero-intro">
+        From the sacred hills of Tirupati to the golden sands of Jaisalmer, this photo journal captures 
+        ten unforgettable days exploring India's rich heritage, breathtaking landscapes, and warm hospitality. 
+        Join us as we relive the magic of ancient temples, royal palaces, and New Year's celebrations 
+        under the desert stars.
+      </p>
+    </div>
+    <div class="scroll-indicator">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+      </svg>
+    </div>
+  </section>
+
+  <nav class="sticky-nav">
+    <div class="nav-container">
+      <a href="#tirupati" class="nav-link">Tirupati Tirumala</a>
+            <a href="#delhi" class="nav-link">Delhi Gate</a>
+            <a href="#agra" class="nav-link">Taj Mahal & Agra</a>
+            <a href="#kishangarh" class="nav-link">Kishangarh</a>
+            <a href="#jaipur" class="nav-link">Jaipur & Amer Fort</a>
+            <a href="#jodhpur" class="nav-link">Jodhpur</a>
+            <a href="#jaisalmer" class="nav-link">Jaisalmer</a>
+            <a href="#chennai" class="nav-link">Chennai</a>
+    </div>
+  </nav>
+
+  <main>
+
+      <section class="location-section" id="tirupati">
+        <div class="location-header">
+          <h2 class="location-title">Tirupati Tirumala</h2>
+          <p class="location-subtitle">A Spiritual Journey to the Abode of Lord Venkateswara</p>
+        </div>
+        
+        <div class="location-content">
+          <div class="location-description">
+            <p>Our journey began with something truly sacred – the pilgrimage to Tirumala, one of the most revered temples in the world. Nestled in the Seshachalam Hills of Andhra Pradesh, this ancient temple dedicated to Lord Venkateswara draws millions of devotees every year, making it one of the most visited religious sites on Earth.</p>
+            <p>The most memorable part? Walking up the legendary Srivari Mettu – over 3,550 steps carved into the hillside, each one bringing us closer to the divine. As the morning mist cleared and the temple gopuram came into view, every aching muscle felt worth it. There's something magical about earning your darshan through sweat and devotion, the same way pilgrims have done for centuries.</p>
+            <p>The temple's wealth of history spans over a millennium, with inscriptions dating back to the 9th century. Today, the Tirumala Tirupati Devasthanams manages this spiritual treasure, ensuring that the divine experience remains unchanged for generations to come.</p>
+          </div>
+          
+          <div class="location-highlights">
+            <h3>Highlights</h3>
+            <ul>
+              <li>Climbed 3,550+ steps of Srivari Mettu</li>
+              <li>One of the richest temples in the world</li>
+              <li>Ancient history dating back to 9th century</li>
+              <li>Divine darshan of Lord Venkateswara</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="location-gallery">
+
+            <div class="photo-card" data-index="0" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczM5mKTHDhS17ySs4Gnch4094eY5DsOJ6P1iF9--vZLI8RyC-9OaBoYr_VCQzTLBPJvNzm3WxlKifLL8BbdwEeNuxBLL1QrXdIN_Aemeein6VbrxV4XI=w400-h300" alt="Tirupati Tirumala - Photo 1" loading="lazy" onclick="openLightbox(0)">
+              <div class="photo-overlay">
+                <span class="photo-number">1</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="1" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczN0BrRnm4pNiKmFlk_cVmCWEFNL2QTiHQWupayipY9Je4KcgmRG1IAaPjoZZH-KBPci73401QBgnlHwt2_tXb_901MPD4eZ-3OB8dNyWfX9V-CNNEi7=w400-h300" alt="Tirupati Tirumala - Photo 2" loading="lazy" onclick="openLightbox(1)">
+              <div class="photo-overlay">
+                <span class="photo-number">2</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="2" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNtHwcMhLbtruiASn-lMbyP17CwUhQ6chMpnaWdEkYouOOkqYWtpJsWUQoH0joqQLisSE5Fa9yIM7S5UoZ-0ge1rl19TlCS68THg_8TFniDtcQw4nEJ=w400-h300" alt="Tirupati Tirumala - Photo 3" loading="lazy" onclick="openLightbox(2)">
+              <div class="photo-overlay">
+                <span class="photo-number">3</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="3" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczObj7aFIwcLIYyWW3I6kCBB9GB6u_xLmzfuDyx2gCftbzRW9ZxZrEmPadRq4wOo-lf_P9kT4Z4w1cLSlbMOj2RB3LZiz9q_WobtjcyeN9phU881Js97=w400-h300" alt="Tirupati Tirumala - Photo 4" loading="lazy" onclick="openLightbox(3)">
+              <div class="photo-overlay">
+                <span class="photo-number">4</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="4" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPKDmXjkUd4_QuMHkFcQx5J6WcsE3xGNyaI-93RonVGVYrKZuIYIwOZfLRgVs1mKpcts4aElo-qAS5B-NaI5nM-j6hugVh6GwtIQyY5awBoL_RqBos0=w400-h300" alt="Tirupati Tirumala - Photo 5" loading="lazy" onclick="openLightbox(4)">
+              <div class="photo-overlay">
+                <span class="photo-number">5</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="5" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOdLGr1xA9u4CIzAGJBtPnFIosnl_SANzkhH9gRAoC0DDP_d1IVIfS1_ZTqgR_W6R-ziZzRumVe_WcuWy7tE8DhkZ6ZkAdRfFKt4VDQQdgpzZK4zJsE=w400-h300" alt="Tirupati Tirumala - Photo 6" loading="lazy" onclick="openLightbox(5)">
+              <div class="photo-overlay">
+                <span class="photo-number">6</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="6" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNnzLMfezFCVIIxUmsm2MAezwE3ZeIC1juS-GVqnJuRNb9k96UHuVWRi0UvRPgrSgEBm3yfaptScaa4THxFVjLCjzzvAfWxHBQym38ALNd8R6Osn7Zy=w400-h300" alt="Tirupati Tirumala - Photo 7" loading="lazy" onclick="openLightbox(6)">
+              <div class="photo-overlay">
+                <span class="photo-number">7</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="7" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOF-YDt8_PP9VgZIZaKDVn9lXEPTgHopfn5DBiNWOAh4qctltpBGhOxv6pdlrv5M9kc72vb4gPQCUlWhqQJxFVB7BbERYnlZkK7aU7RDRM49EdDDdgL=w400-h300" alt="Tirupati Tirumala - Photo 8" loading="lazy" onclick="openLightbox(7)">
+              <div class="photo-overlay">
+                <span class="photo-number">8</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="8" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPRajXaq-gfMIowVdr2tkNrZEy3Sg-5BiWhJ7brEje2cTdM4n2pxpj8U65bP6tASNp6sOyeeGHLybSYkoZZPvyxdLiM2Hq82zSgU5Yz6k8QmhZI3xiy=w400-h300" alt="Tirupati Tirumala - Photo 9" loading="lazy" onclick="openLightbox(8)">
+              <div class="photo-overlay">
+                <span class="photo-number">9</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="9" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMCenGJ-fLY21cfater-kHXnTV5yoTq56CHzJ6VIFqo8cC6GhmWBFjU6aLyvNbkL84yRmCA9MXgLO1R9ygPNGb27hT71uAYThZZJgng29yGYLTc5-fI=w400-h300" alt="Tirupati Tirumala - Photo 10" loading="lazy" onclick="openLightbox(9)">
+              <div class="photo-overlay">
+                <span class="photo-number">10</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="10" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPgxXwq7ThaVQBfL3Gk3zf6ZNKkJTSBi_RMcsY9GhU3pmUZCxXvRJxwgl4ydvlocBF0PaeICh-ZO4gjFcZGS7IuvYDbZBfNtkWbmKRFKHfEkaL1AW2Q=w400-h300" alt="Tirupati Tirumala - Photo 11" loading="lazy" onclick="openLightbox(10)">
+              <div class="photo-overlay">
+                <span class="photo-number">11</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="11" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczM3p-g8MP87S5ZGX2XtQfUM2Xs4qElpylgzl2XyhiQ97sciPFaFb93nXuK9uk5uWwZtebedG2MgE40Ha3GdKCk6ZhiXTye_jLF-ZZjG-b9rSi0TU1po=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczM3p-g8MP87S5ZGX2XtQfUM2Xs4qElpylgzl2XyhiQ97sciPFaFb93nXuK9uk5uWwZtebedG2MgE40Ha3GdKCk6ZhiXTye_jLF-ZZjG-b9rSi0TU1po=w400-h300" preload="metadata" onclick="openLightbox(11)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">12</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="12" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczNKLthrUTwX842IbOQefKAXrwe9ETsrSnMclriZRbAu0QmMpa7Q51ZY3QqnnfM2rsbdBFfXLdlQD-h9varvsrdX0caRrUCvC5GqDHlqvWpmEu0c30UL=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczNKLthrUTwX842IbOQefKAXrwe9ETsrSnMclriZRbAu0QmMpa7Q51ZY3QqnnfM2rsbdBFfXLdlQD-h9varvsrdX0caRrUCvC5GqDHlqvWpmEu0c30UL=w400-h300" preload="metadata" onclick="openLightbox(12)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">13</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="13" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPscT317u3JN9-GEoMhAJqtk_EjarKxDXcBBrOtaFBChJlQyu41iuFXkEIPQNbnptdpw2KI8IsA6L-WrhDisMCgPIeW9M67dl9RDvpLEoPmgW7A9heZ=w400-h300" alt="Tirupati Tirumala - Photo 14" loading="lazy" onclick="openLightbox(13)">
+              <div class="photo-overlay">
+                <span class="photo-number">14</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="14" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPgpO-UmJOz0Fg4hZ6MjC9oh61VNpZYHnJ4XZItdZ14WiJWUf8EMGhyHYMnHnufIIB-boCfF5DeLyBOUWGLG-AzG2wMk2LhsLLafaSFdYDTokLaMPv1=w400-h300" alt="Tirupati Tirumala - Photo 15" loading="lazy" onclick="openLightbox(14)">
+              <div class="photo-overlay">
+                <span class="photo-number">15</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="15" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNA3PCVjvII9y8o6Gto8vlUrEE4NDy4lbu6lLlCcPx7VP6oAJj-8Kfht9gG0_4TCVuEqTpzzO9N0HgpxtFFa8GvAgUNwWFx-MOWYoLMSbV8OwNYiT-3=w400-h300" alt="Tirupati Tirumala - Photo 16" loading="lazy" onclick="openLightbox(15)">
+              <div class="photo-overlay">
+                <span class="photo-number">16</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="16" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPVTGsNtJfmedzexzfcLwEAiKQ9JoTmSQMVcjqZavPmsbK3K9C_xCvNl2Gfj-sIizAyVz7SEqhZIcqX3UUaWllRz1HcTbnJKL9XE7nEbAjZBBWG8N0A=w400-h300" alt="Tirupati Tirumala - Photo 17" loading="lazy" onclick="openLightbox(16)">
+              <div class="photo-overlay">
+                <span class="photo-number">17</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="17" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNb96Fpp0Nn_Ay5tKzb27YByRUqNdrOloaEafRujNCyrmRZrl28ZILfhWYDqsygJaFEBnaZXmow3axHN-n1U8jdUUK9pTOmmkUZ3j1jBV_Trr8XV6PH=w400-h300" alt="Tirupati Tirumala - Photo 18" loading="lazy" onclick="openLightbox(17)">
+              <div class="photo-overlay">
+                <span class="photo-number">18</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="18" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPj7ebsIzrqr4_sOp8hRjiuQAJN3aIsLln8V20j-lQZtkjINvl-l0LVL_mGGp-aVAuwsw-cX0-zhD25CEFkQwpH7vm1YAO4LcckLnkSTx_jgTdy3Gxf=w400-h300" alt="Tirupati Tirumala - Photo 19" loading="lazy" onclick="openLightbox(18)">
+              <div class="photo-overlay">
+                <span class="photo-number">19</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="19" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNVu1ivRlL6XOoKU_1ooc1V9qBXvHO1za3CcA3bUEFgZcgStPfmWm48pVDbNosRX-88ktbgEbINaMNGclwYfVYNo3pOrmyEBjSeQd9N43kivcGibRBV=w400-h300" alt="Tirupati Tirumala - Photo 20" loading="lazy" onclick="openLightbox(19)">
+              <div class="photo-overlay">
+                <span class="photo-number">20</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="20" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMikaUzp2vWYiwlX_PUG1378HlXQpiIwedsG4iHCLqrLx8ZVOl8YMtJaEuDz8dN9ewfIqRVDdq1_t-9FjLZb47oPqbjbDjELCo2Nd2SsOxJY6uFNQzw=w400-h300" alt="Tirupati Tirumala - Photo 21" loading="lazy" onclick="openLightbox(20)">
+              <div class="photo-overlay">
+                <span class="photo-number">21</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="21" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczO81FUX-FTD0F1D9Yl97ec-kQyqxPnrU2nsfxPdarKkBBFlGv7mokdZRyMWt1uhDjYyL5UYagAOfeAX5KH8Rj_uSZDGgoUfgbDtBuCBSK9IACtpp5Y_=w400-h300" alt="Tirupati Tirumala - Photo 22" loading="lazy" onclick="openLightbox(21)">
+              <div class="photo-overlay">
+                <span class="photo-number">22</span>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="location-section" id="delhi">
+        <div class="location-header">
+          <h2 class="location-title">Delhi Gate</h2>
+          <p class="location-subtitle">Where History Stands Tall</p>
+        </div>
+        
+        <div class="location-content">
+          <div class="location-description">
+            <p>Our first glimpse of North India's Mughal grandeur came at Delhi Gate – a magnificent portal that has witnessed centuries of history unfold. Standing before these imposing walls, you can feel the weight of empires that rose and fell within these ancient grounds.</p>
+            <p>The intricate red sandstone architecture speaks of a time when every archway was crafted to impress, every detail designed to inspire awe. Walking through the gate feels like stepping through a time portal, leaving behind the modern world and entering an era of emperors and epic tales.</p>
+            <p>This is where our Rajasthan adventure truly began – a fitting introduction to the architectural wonders that awaited us in the days ahead.</p>
+          </div>
+          
+          <div class="location-highlights">
+            <h3>Highlights</h3>
+            <ul>
+              <li>Historic Mughal architecture</li>
+              <li>Gateway to India's rich heritage</li>
+              <li>Stunning red sandstone craftsmanship</li>
+              <li>Perfect start to our North India journey</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="location-gallery">
+
+            <div class="photo-card video-card" data-index="22" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczO6ASbx6fZLUHI9R80YBGm8NzaASuSSoCw_xnDNRxqsMC-6jiNMkIhEjB_PAkvIZxYBu21-L95kDVrCCC6PBs5JQRiqelG4QEOIY00w1SO9LlmtgEVk=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczO6ASbx6fZLUHI9R80YBGm8NzaASuSSoCw_xnDNRxqsMC-6jiNMkIhEjB_PAkvIZxYBu21-L95kDVrCCC6PBs5JQRiqelG4QEOIY00w1SO9LlmtgEVk=w400-h300" preload="metadata" onclick="openLightbox(22)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">1</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="23" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczN3-SdfPG9ujRQh0Z-v2ozCg0Lu926wsxSVQZ6gmmWTcdsuJZV_WzHxCF7WOlXcAnjwAW3E7ZtMNLschVHirqUMKPbWNUdQQz_Er5co9gU9pdp0P4rD=w400-h300" alt="Delhi Gate - Photo 2" loading="lazy" onclick="openLightbox(23)">
+              <div class="photo-overlay">
+                <span class="photo-number">2</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="24" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNOuWWFQs9rcPvoPCmWIkja-ipcS_9qXys0lrTdnrstmz8yEtCki0NgPjBizkZoVZ1VAQMT5IgxlFdl2XokfwWTuVcJh_JaUW35Z5PQSGD5jQEzDYAZ=w400-h300" alt="Delhi Gate - Photo 3" loading="lazy" onclick="openLightbox(24)">
+              <div class="photo-overlay">
+                <span class="photo-number">3</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="25" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMcooUsy87o8I5_avyL7-_J0TAMIl7SDenVohsc8QLC23Hz32dj-3sgfLc2faryZenaPWoGZFwLywl9v_48zmLwA6ZJrXvw4mZJTrfhyl3sjCIinTTp=w400-h300" alt="Delhi Gate - Photo 4" loading="lazy" onclick="openLightbox(25)">
+              <div class="photo-overlay">
+                <span class="photo-number">4</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="26" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPaNwgB37s7wJ0-DkGO6ROdc3KFs_SPkhlWjualJlMzr0FAks--5nsM5cStnrjxRZzvq64Y_nRDBs3CmuxrsGJMFv7pLmr0i2J_5W-kWK6GeitG_Cyn=w400-h300" alt="Delhi Gate - Photo 5" loading="lazy" onclick="openLightbox(26)">
+              <div class="photo-overlay">
+                <span class="photo-number">5</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="27" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMcYsOSXxysRBiol0hgMgXCzxomvU6FHq1TP9O-H-4AAoZhwhBbypOZbfBrRheMiUr608sqDrGKOwkRtlsgzBpVbMSKP-hb-kdcKTO4biuT1Z0V_LwS=w400-h300" alt="Delhi Gate - Photo 6" loading="lazy" onclick="openLightbox(27)">
+              <div class="photo-overlay">
+                <span class="photo-number">6</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="28" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMfBDpT1f5lQNdTdXjMc9KLn80SCzQdNMCMN1oCOxcgpPhgA4RHQu2xU66Wr0BH2WaHHIIp-GpMKGQaMrzOUoAYK6jcVFHfRpipit0JuZD-RVFFRrum=w400-h300" alt="Delhi Gate - Photo 7" loading="lazy" onclick="openLightbox(28)">
+              <div class="photo-overlay">
+                <span class="photo-number">7</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="29" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNABcUwdm-qc1vHXpJusv7R5V9h0U7_Ki4D8HX3_iVTVy4PbHFbeUCz-G2XV2h8zYASqLK3lovBksyEKERTkpon40kf4zttMF-HtBxtAN7a566foTYk=w400-h300" alt="Delhi Gate - Photo 8" loading="lazy" onclick="openLightbox(29)">
+              <div class="photo-overlay">
+                <span class="photo-number">8</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="30" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMsC2hFZ7AeMSV72bWnqzR7m6i01fNxKaC8wVI-O9IRNHVLf2YhN_it2cUpjrnPTpj0d-KiusqDC9ZlkD081aYSVSBR03CGeLGMDO_AjO-TeQeF1tvu=w400-h300" alt="Delhi Gate - Photo 9" loading="lazy" onclick="openLightbox(30)">
+              <div class="photo-overlay">
+                <span class="photo-number">9</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="31" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMJLkbKJNiXsdvQtG_7taG97dg-i-Binoa3qAF9k6psLAOvciauA15rbNO0SXDFaVPlz1WpwX_owwHndD6DZCkoxFRjQ8gSPjf8v5lq5jnNDHyVnQHY=w400-h300" alt="Delhi Gate - Photo 10" loading="lazy" onclick="openLightbox(31)">
+              <div class="photo-overlay">
+                <span class="photo-number">10</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="32" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczP5J6FF5uMObIXxY0ZrAJZon3rXhinrTI6gbpm-cS9d9Ya2ED9Z1Cv1v6d1EoGIKSDmlNUrVnHog5Zq0wgNLQobLtUaW33NVP9uoQvcwl21Kq0qh4nK=w400-h300" alt="Delhi Gate - Photo 11" loading="lazy" onclick="openLightbox(32)">
+              <div class="photo-overlay">
+                <span class="photo-number">11</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="33" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNlCsUDA3YyDGzwd6pOoIzm-alcbuW_CpZkMuDF1ZndzhP-KiAxaHso0UFQlSytRj8WZyqTuZFJfXJTvekBJ-yTn1j3jLygZZNsp2HchzBhVs-ZcK1r=w400-h300" alt="Delhi Gate - Photo 12" loading="lazy" onclick="openLightbox(33)">
+              <div class="photo-overlay">
+                <span class="photo-number">12</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="34" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczM-w0Jll5_O1AgHxV8mCrctMwTu3LhRpGcPSntrtFqoSeiImcRa1vOePs2cDfm-pByzJImjTrXOhGzHOVL4QMqM3vlATV74rvNS2FMunjUOHE1z0TDn=w400-h300" alt="Delhi Gate - Photo 13" loading="lazy" onclick="openLightbox(34)">
+              <div class="photo-overlay">
+                <span class="photo-number">13</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="35" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMRPIPLuC8jEE_eEUYfVJjH7H3y-rSuaPwSHdSYLWzW_DED-QvkqGnHKNVcpnfN2eiMrJ2a9dhQntk33VwRPYXTDPnppG3O4uXhGgUt0_jDGgfUxSdy=w400-h300" alt="Delhi Gate - Photo 14" loading="lazy" onclick="openLightbox(35)">
+              <div class="photo-overlay">
+                <span class="photo-number">14</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="36" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMyihb18vDVf8Dl0OFF78UQInEZCzoxL1USTavxX7Ux-tSx5EnsITa68Mc3NX3L0AclhnojCfIj6qI9STMGczSt2CuSfYwWgb5tppoHG5IPtDzXtbZs=w400-h300" alt="Delhi Gate - Photo 15" loading="lazy" onclick="openLightbox(36)">
+              <div class="photo-overlay">
+                <span class="photo-number">15</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="37" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNGz8w1utV76QQQoTvI_0ZeTdtSJjeFGjT_KpKl84dZDDqJbOYgFXCx_JKX8Avc2Zkfmqj8RkCe_IeWxmq1Dha81DgtbllaDYJQed379yXay99z46Qz=w400-h300" alt="Delhi Gate - Photo 16" loading="lazy" onclick="openLightbox(37)">
+              <div class="photo-overlay">
+                <span class="photo-number">16</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="38" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczP5h08XhJygbqj5P2lTCgllGMTHNR-XHMmWz_0BT5Py0UszSEX9wNSSzJYgyH92k2EAtYqpMY8OwqMf3-r18AjB845zu0AAW55V0KBKFVvVTB9g3zkj=w400-h300" alt="Delhi Gate - Photo 17" loading="lazy" onclick="openLightbox(38)">
+              <div class="photo-overlay">
+                <span class="photo-number">17</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="39" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPkG0Em1QD1GS-uYTNHL-kFo1r_vc2Afg5ctmLhLn4H2oXGezEHCuPQXlK0WTB1KEMKhpQU_vHG88xI443itq9Ik2YrsBayYDGJFsqCLrRvPky3UdXJ=w400-h300" alt="Delhi Gate - Photo 18" loading="lazy" onclick="openLightbox(39)">
+              <div class="photo-overlay">
+                <span class="photo-number">18</span>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="location-section" id="agra">
+        <div class="location-header">
+          <h2 class="location-title">Taj Mahal & Agra</h2>
+          <p class="location-subtitle">A Monument to Eternal Love</p>
+        </div>
+        
+        <div class="location-content">
+          <div class="location-description">
+            <p>Nothing quite prepares you for that first glimpse of the Taj Mahal. As you pass through the main gate and the ivory-white marvel comes into view, time simply stops. Built by Emperor Shah Jahan as a mausoleum for his beloved wife Mumtaz Mahal, this UNESCO World Heritage Site is poetry in marble.</p>
+            <p>We also explored the lesser-known but equally fascinating areas around Agra, including the marble craftsmen's workshops near the moonlight zone – where the magic of "Bajrangi Bhaijaan" (2015) was captured. Remember that heartwarming scene where Salman Khan's character helps little Munni? Some of those beautiful moments were filmed right here among the skilled artisans who carry on the Mughal tradition of marble inlay work.</p>
+            <p>Standing at the marble dumpyard, watching craftsmen transform raw stone into intricate patterns, you realize that the Taj Mahal isn't just a monument – it's a living legacy of craftsmanship that continues to thrive in these very streets.</p>
+          </div>
+          
+          <div class="location-highlights">
+            <h3>Highlights</h3>
+            <ul>
+              <li>One of the Seven Wonders of the World</li>
+              <li>Filming location for 'Bajrangi Bhaijaan' (2015)</li>
+              <li>Marble craftsmen keeping Mughal traditions alive</li>
+              <li>Built 1632-1653 by 20,000 artisans</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="location-gallery">
+
+            <div class="photo-card" data-index="40" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMaWfFpstWOmf9TnZ_IJ-wyDjWmTDxUa53oLxRx1WSkpxW01qrJPoc8bwwYMXpbB1klec0_FzTx3plRhO9OOlWhZl9WVqVEiYWWoMRF7s0J3wFRtVzy=w400-h300" alt="Taj Mahal & Agra - Photo 1" loading="lazy" onclick="openLightbox(40)">
+              <div class="photo-overlay">
+                <span class="photo-number">1</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="41" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPJZa3iCbusyh89cr81IGDqIXaXvWWlJCqEGn-1cdndJxg3QU0lcDgc9TE6aMbn8QF64HqoEEtcxGbYapRAD-tlCKJ0JB4tOWPk4aTj6TpCmQ5t2-JD=w400-h300" alt="Taj Mahal & Agra - Photo 2" loading="lazy" onclick="openLightbox(41)">
+              <div class="photo-overlay">
+                <span class="photo-number">2</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="42" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPfpbgTUbd67dqQn3GJad05V4DW0mkmis0lQKVBIdOTZ142fyTqsolEF_2cEmDA3AEFIyVkiTXpA_qCanpLPBGGVy9h-lN4Gv9eDa__v_BRZJyZfeIS=w400-h300" alt="Taj Mahal & Agra - Photo 3" loading="lazy" onclick="openLightbox(42)">
+              <div class="photo-overlay">
+                <span class="photo-number">3</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="43" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOccEkHsi1MNI79rUE8r1obmF8DJR2nmIP2ILcF9KTq0GWin_IbKlHZ7JwL8wox1usI3Xx1W4oWJXp8KH9NhOE5NZyofdnR9cIdDjlcpLxZLrJIFsqi=w400-h300" alt="Taj Mahal & Agra - Photo 4" loading="lazy" onclick="openLightbox(43)">
+              <div class="photo-overlay">
+                <span class="photo-number">4</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="44" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczN94B1zQSdHvAl3Y857bnzlZPAdkr3FQ1L4PqqesE2X0TK6pK2THJQ-BC7-dD_mEJl6AE5kMIKrZB532s3LajbjHsmE4gi8VTovBow4oDE0dKc5gwzL=w400-h300" alt="Taj Mahal & Agra - Photo 5" loading="lazy" onclick="openLightbox(44)">
+              <div class="photo-overlay">
+                <span class="photo-number">5</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="45" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczO3Qf3ZXkQBNyX8ZW0QTBbKRVU4kzvRJNQAfwy3dHF49Z6eSSAvfYUBHza8T7VZ3Lp1rp5jjiuafEFswzVETsAj2HOFfGHkMxIb44DFop82Tsy82Pm0=w400-h300" alt="Taj Mahal & Agra - Photo 6" loading="lazy" onclick="openLightbox(45)">
+              <div class="photo-overlay">
+                <span class="photo-number">6</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="46" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNubNt92Em0hrgMk1zHXMytc_QigHOPrL8FaMadw2zthJonAh8H_m9oyVDzMGr7LhkBOjq6DY9YuA4Tskzp3EU317hEjNkUNfqpncZyysNArnO39dCY=w400-h300" alt="Taj Mahal & Agra - Photo 7" loading="lazy" onclick="openLightbox(46)">
+              <div class="photo-overlay">
+                <span class="photo-number">7</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="47" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNVKgHhjzSslwKxUfqymlTJviOzBRzMQK9kGfZXqRhvgP0DVYWjvDebSTAUL8yx0h9hAbqXQ51xQ7nVqPkzwOxkZzbcLUrGrgdCNQLNYAOtrwY2yAeA=w400-h300" alt="Taj Mahal & Agra - Photo 8" loading="lazy" onclick="openLightbox(47)">
+              <div class="photo-overlay">
+                <span class="photo-number">8</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="48" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMF3K46__KWnpIF93pkoFnUiDAV2btif8iWMPJxn66j4ns1bPqIjhUBEP-dr_eMYDNiw4H-iNnFhueVCJz9IaR-8Dd-CorxvpIzzPiPeTUAy3xAl_Fw=w400-h300" alt="Taj Mahal & Agra - Photo 9" loading="lazy" onclick="openLightbox(48)">
+              <div class="photo-overlay">
+                <span class="photo-number">9</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="49" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMM_sGxBSDX6wTWHY3iB5Jmv69FF5rSSPCiCcW74wcmGetrp3SwosmqIJkdptFz9duKyEUMGoncYCIjq_yuqVv9mqlzTjmL5qnz-v4UlSyVWLGbEO8o=w400-h300" alt="Taj Mahal & Agra - Photo 10" loading="lazy" onclick="openLightbox(49)">
+              <div class="photo-overlay">
+                <span class="photo-number">10</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="50" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPfbuR4ViDs-CYnNXI_0vunvcp46GvmskkxDKzP4Z7LI89m2IoeorXDiLB5LnCNxXhedvkYz5bM7qNKqO63xkWES81dRomOxtlBNSHoxm0HkSPAsnlC=w400-h300" alt="Taj Mahal & Agra - Photo 11" loading="lazy" onclick="openLightbox(50)">
+              <div class="photo-overlay">
+                <span class="photo-number">11</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="51" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOkca6zh4kI5G17uactHmPMIJ3CihGIfHNjbb4-6G9rS9sbHXjF9qyo8r0v6x2qeG5YfZ0PdHIIHSaJQxoM2zAFxVzc9wmE1NWgCuu1LJXcrq1MXQm8=w400-h300" alt="Taj Mahal & Agra - Photo 12" loading="lazy" onclick="openLightbox(51)">
+              <div class="photo-overlay">
+                <span class="photo-number">12</span>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="location-section" id="kishangarh">
+        <div class="location-header">
+          <h2 class="location-title">Kishangarh</h2>
+          <p class="location-subtitle">The Marble City of Rajasthan</p>
+        </div>
+        
+        <div class="location-content">
+          <div class="location-description">
+            <p>Between Jaipur and Ajmer lies a hidden gem that most tourists overlook – Kishangarh, famous for its exquisite miniature paintings and stunning marble works. Known as the "Marble City of India," this charming town gave us a glimpse into Rajasthan's lesser-known artistic heritage.</p>
+            <p>The town is renowned for the Kishangarh school of painting, particularly the iconic "Bani Thani" – often called the "Indian Mona Lisa." The delicate brushwork and romantic themes of these miniatures tell stories of devotion and love that have captivated art lovers for centuries.</p>
+            <p>Driving through the marble markets, we witnessed artisans transforming raw stone into intricate sculptures and architectural elements. It's humbling to realize that the same craftsmanship traditions that built the Taj Mahal continue to thrive in workshops like these.</p>
+          </div>
+          
+          <div class="location-highlights">
+            <h3>Highlights</h3>
+            <ul>
+              <li>Famous for Kishangarh miniature paintings</li>
+              <li>Home of the 'Bani Thani' - Indian Mona Lisa</li>
+              <li>Major marble crafting hub</li>
+              <li>Rich artistic heritage off the tourist trail</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="location-gallery">
+
+            <div class="photo-card" data-index="52" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczN0kGPzDeKUJiEA6Ji6W6jS16jvXo0c7_X7oF4bAj_RqqmOkAS1dHe0wuDhjWO2nrVEmefxfF7f0oanT3qw_1lg4DAsv4q7AgTcOSu5QDk9ZcVegXA_=w400-h300" alt="Kishangarh - Photo 1" loading="lazy" onclick="openLightbox(52)">
+              <div class="photo-overlay">
+                <span class="photo-number">1</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="53" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMT2VtWW0Ho9UyEwClMcoQUl69kI-eTY2mc38zyzEb96I-4xc7SAKieukhxsyH2Nfs-W7tofXCT7WYL-aTVg0_nCNMGwyLuv1hBx5MhO3izKpkBpvk8=w400-h300" alt="Kishangarh - Photo 2" loading="lazy" onclick="openLightbox(53)">
+              <div class="photo-overlay">
+                <span class="photo-number">2</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="54" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczM_IpaYjRrXDooMvsyUVmTJ3R4kqpXC06bxF8BGz_BlBgjTU3LAs4SKgjN1c2XHssdhxm4KeI26EhQSc2IWQRinrD7FSsheqESn1oeDoAmJBvUh0w_s=w400-h300" alt="Kishangarh - Photo 3" loading="lazy" onclick="openLightbox(54)">
+              <div class="photo-overlay">
+                <span class="photo-number">3</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="55" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPu-MRnUc_VnKRMg0mTwcCTdFgtMKidoLt1d-KNBc1HLNQn6pvcCX1TffI5kIXXuY29rz1m3xLYYGh7i28yle0artF647V21upSoLqlxQNctvjFXSK8=w400-h300" alt="Kishangarh - Photo 4" loading="lazy" onclick="openLightbox(55)">
+              <div class="photo-overlay">
+                <span class="photo-number">4</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="56" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOEjJROt8lsULEtrnFcVVNt2si0QpvJLw28rASL53Z6tI-UTjxPHIqSn_sgwCmZuvd-3cgDsmf5y_k1KAUwW3DOAq53gfh3apSHJ8Basuy17BPt9ykb=w400-h300" alt="Kishangarh - Photo 5" loading="lazy" onclick="openLightbox(56)">
+              <div class="photo-overlay">
+                <span class="photo-number">5</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="57" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczM8hvaZj58Bk19-FqidqNk-CMjXuR-9EdbZznzlLlsbNQAj4Y8vsj-tnTEKJCtlqyHTf6BtypxXgVMdghB2dJNc8a2cW8OOCf6Za8uPdDwSN2hcH7oX=w400-h300" alt="Kishangarh - Photo 6" loading="lazy" onclick="openLightbox(57)">
+              <div class="photo-overlay">
+                <span class="photo-number">6</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="58" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOsYPd0bBbE97bkJNexeayAuh0XURm9mlh9xBnYtagrYW5nTxDgn216sew_oy5WYPazNwFevAviQ3KZaW3vqiCPBLWsnwv2UYGNPNJqiLroJVEMb4pg=w400-h300" alt="Kishangarh - Photo 7" loading="lazy" onclick="openLightbox(58)">
+              <div class="photo-overlay">
+                <span class="photo-number">7</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="59" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOcBuRJLYRCmXaNp6niRUHYd61IE33gvTjNopdtvwHKUY1NBtqElNBYh9Sc4VJWaZHFLUf2virzKwpgIiPlirBGWwfeQMbOfjqT0k_FTWFVhAVAv0gl=w400-h300" alt="Kishangarh - Photo 8" loading="lazy" onclick="openLightbox(59)">
+              <div class="photo-overlay">
+                <span class="photo-number">8</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="60" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNJpLpg7ZGLygRNvvSazP6CwQgfrgcldw1JW_L2L74C7z-iAmmeqZMGUoDQHuD6FM8ciw7pzV2-mjvZSoQHk3WNMQWp5MHxA0Y657--O827_FddQIdr=w400-h300" alt="Kishangarh - Photo 9" loading="lazy" onclick="openLightbox(60)">
+              <div class="photo-overlay">
+                <span class="photo-number">9</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="61" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOtpKLMRMYKfVG_kwQHBvqU2cFcESUpoPWbTqWsQ7ljACcuENa6uIc5r5f21-1sukgV3Obj7hB3pV_KaiVyozczae6mAcm8YPefos2mSAQRdfyq5C1p=w400-h300" alt="Kishangarh - Photo 10" loading="lazy" onclick="openLightbox(61)">
+              <div class="photo-overlay">
+                <span class="photo-number">10</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="62" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOfUHjQuKm8xC9TqJ-XLAD3N-KmKb1tl1Ov0iQz0q41ZiP4iWpBIlOcvHTXJPfNVb2LPPuy66HHfLFYSbWbEg2Yi-UobknZKN4ckBMXkBI5mHfOdhW_=w400-h300" alt="Kishangarh - Photo 11" loading="lazy" onclick="openLightbox(62)">
+              <div class="photo-overlay">
+                <span class="photo-number">11</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="63" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNf0dy_RJdlygT-Q7lQdA6xd9QICI_rONOUW_u_fCuEP4avf8lUgRMU5AtPD4dYo4ajWtDsMfakICtGzClFN9y9rQasKJV08CvxWBQkhgsmZdDwVD53=w400-h300" alt="Kishangarh - Photo 12" loading="lazy" onclick="openLightbox(63)">
+              <div class="photo-overlay">
+                <span class="photo-number">12</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="64" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczP_XxRqMlC7cYeriOLkHzCm3bP24ZWyfMnNd21v_H8BjXgLt3I-f8lNB9p0zngmLYDwfnbHAvhKVX-MCCX10xvqzm1qpEhiY1j-tetjhwpu6hcZQM8_=w400-h300" alt="Kishangarh - Photo 13" loading="lazy" onclick="openLightbox(64)">
+              <div class="photo-overlay">
+                <span class="photo-number">13</span>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="location-section" id="jaipur">
+        <div class="location-header">
+          <h2 class="location-title">Jaipur & Amer Fort</h2>
+          <p class="location-subtitle">The Pink City's Royal Splendor</p>
+        </div>
+        
+        <div class="location-content">
+          <div class="location-description">
+            <p>Welcome to Jaipur, the Pink City – where every corner tells a story of Rajputana grandeur. But the crown jewel of our visit was undoubtedly the magnificent Amer Fort, perched majestically on Aravalli hills overlooking Maota Lake.</p>
+            <p>Walking through these palatial halls, you can almost hear the echoes of history. This is where the epic love story of "Jodhaa Akbar" (2008) was brought to life, with Aishwarya Rai and Hrithik Roshan dancing through these very corridors in the stunning "Khwaja Mere Khwaja" sequence. The Sheesh Mahal (Mirror Palace) with its intricate mirror work still takes your breath away, just as it did for Mughal emperors centuries ago.</p>
+            <p>Built by Raja Man Singh I in 1592, this fort represents the perfect blend of Hindu Rajput and Mughal architecture. The morning light filtering through the latticed windows, the cool marble underfoot, the stunning views of the pink city below – every moment here felt like stepping into a living movie set. And of course, we couldn't miss the iconic Jal Mahal – the Water Palace rising dreamlike from Man Sagar Lake!</p>
+          </div>
+          
+          <div class="location-highlights">
+            <h3>Highlights</h3>
+            <ul>
+              <li>Filming location for 'Jodhaa Akbar' (2008)</li>
+              <li>Sheesh Mahal - Hall of Mirrors</li>
+              <li>UNESCO World Heritage Site</li>
+              <li>Jal Mahal - the floating Water Palace</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="location-gallery">
+
+            <div class="photo-card video-card" data-index="65" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczOpwXObjE3cvpNt6KakWHuiS4ePvlbAXc32_l4mwyHLvC8pJF6nBTYvTGz-0nDKnRlHyi8VeWp-87vn9Z0Xnk4T1a4tCUL6Cf-wM1S-VNqAwD826CjJ=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczOpwXObjE3cvpNt6KakWHuiS4ePvlbAXc32_l4mwyHLvC8pJF6nBTYvTGz-0nDKnRlHyi8VeWp-87vn9Z0Xnk4T1a4tCUL6Cf-wM1S-VNqAwD826CjJ=w400-h300" preload="metadata" onclick="openLightbox(65)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">1</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="66" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPhThaV90CcFqVSfZIYW9kEOaOSFMqwxjBLB2UVoo4JQ749NO2Z6dkwEjmSjp4v4EZ2xaiwaqL9OwbcBs4dGszf3xm5niyH0ThiEbKoWNbsWV6FCojM=w400-h300" alt="Jaipur & Amer Fort - Photo 2" loading="lazy" onclick="openLightbox(66)">
+              <div class="photo-overlay">
+                <span class="photo-number">2</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="67" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczM-3wWHFStvONQoeFwT_ffSHCTBLjKBzAvA9IGpT2ArGmCUykK9ahB1iMgUThs3o1vsTWdSHVNc-2J5kUOS25lZECgWW4EH4tJ0X9IFE4mPwbjmMR9z=w400-h300" alt="Jaipur & Amer Fort - Photo 3" loading="lazy" onclick="openLightbox(67)">
+              <div class="photo-overlay">
+                <span class="photo-number">3</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="68" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczMJD7smDigl2SRNbAE5ws6NhPvdtdH-cG95GUS_Lq8CXBqvf_sr5J02vbgQa70xJZJSTBpLJh-c2hp0oCp2pGeyCsXmxskNINcUrElytTwwnbqfpmU9=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczMJD7smDigl2SRNbAE5ws6NhPvdtdH-cG95GUS_Lq8CXBqvf_sr5J02vbgQa70xJZJSTBpLJh-c2hp0oCp2pGeyCsXmxskNINcUrElytTwwnbqfpmU9=w400-h300" preload="metadata" onclick="openLightbox(68)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">4</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="69" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOMrvkWSnj_Vg8pNLNc-Rq6Ky2cxmUktV50gO9WrrzhsQbyCsGEgcnca4QxmNNQoapGBiYS7MQScqvWuLZva4O6ApqHqHe1XnA89tKnA50khIFhkmuI=w400-h300" alt="Jaipur & Amer Fort - Photo 5" loading="lazy" onclick="openLightbox(69)">
+              <div class="photo-overlay">
+                <span class="photo-number">5</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="70" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPcGTn3X-XgKGc7MbIOMqVlinIg-EV1Hh6m8QBdI8KKHFioM_pdL986_D0gPcdm3BtcNTvty0G6ONnhSaV8RSh2KZjAfPTBPtB4kf-n7cgwehmmAdWo=w400-h300" alt="Jaipur & Amer Fort - Photo 6" loading="lazy" onclick="openLightbox(70)">
+              <div class="photo-overlay">
+                <span class="photo-number">6</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="71" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczM-OIRdZN7l8EzOt1Wbp5B1H94sj7D2TRhK3n3T2cuxblim3jpKDru7dnrsTCJIgIiz1QNK_uJYPy_yHXj3bb9Tsi7yIPaKVNKCgHkqUyRmrQvTPWLN=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczM-OIRdZN7l8EzOt1Wbp5B1H94sj7D2TRhK3n3T2cuxblim3jpKDru7dnrsTCJIgIiz1QNK_uJYPy_yHXj3bb9Tsi7yIPaKVNKCgHkqUyRmrQvTPWLN=w400-h300" preload="metadata" onclick="openLightbox(71)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">7</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="72" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPkTlPlImW1PzPHXu4Vj3BQtRofVHZupl0F9qYU0nlur7KhhFmDDL3ZnVASlduUGeQ8wDMnt1WFfjzDLWdwcWFK5oWDF9CCPCqjbD3v8ptTG9VD-Xi-=w400-h300" alt="Jaipur & Amer Fort - Photo 8" loading="lazy" onclick="openLightbox(72)">
+              <div class="photo-overlay">
+                <span class="photo-number">8</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="73" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczPeU2EJ4sNz0iAt07mykLbATY-AgiUnnBNKLJR8o8UQOrTFmQgH9Kt-5zFg1Z7I7JAo-Lv4iIbZZJiYDWVIVgGjr_vwC9bijdy0LAn_usBREPmLYYN7=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczPeU2EJ4sNz0iAt07mykLbATY-AgiUnnBNKLJR8o8UQOrTFmQgH9Kt-5zFg1Z7I7JAo-Lv4iIbZZJiYDWVIVgGjr_vwC9bijdy0LAn_usBREPmLYYN7=w400-h300" preload="metadata" onclick="openLightbox(73)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">9</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="74" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPfJEK23YcH0je-tMGzowi5rKIcXk8BxGTPGTn_MSx1c8oyaMVH_9KGlZc1nyir1HUKc6paS260JLRp5U_THwiiDxn-3wQC5u3E_Ytpgu_7t2ZLMsF9=w400-h300" alt="Jaipur & Amer Fort - Photo 10" loading="lazy" onclick="openLightbox(74)">
+              <div class="photo-overlay">
+                <span class="photo-number">10</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="75" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNntUHflvbZpR7WdQciroMmJEEegWFRPamfZKa0KNWYUE7v1PiNQqkkPuvnYZMhkOlhLvFjagXPmPW9l74vJXsjZtFLcWAfGLPgBZyhVtzE7XmNP04g=w400-h300" alt="Jaipur & Amer Fort - Photo 11" loading="lazy" onclick="openLightbox(75)">
+              <div class="photo-overlay">
+                <span class="photo-number">11</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="76" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPCB8c52cuq7iO1UcCXnxNtcuI_lY1MAMFfXzXCfx8WbREnH8ph3af7Eqmp4ZPY94q7T8FvURXgxGbjCQgOBj5UuwV9zRcKFltevZHq-XM7btG2yFGC=w400-h300" alt="Jaipur & Amer Fort - Photo 12" loading="lazy" onclick="openLightbox(76)">
+              <div class="photo-overlay">
+                <span class="photo-number">12</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="77" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOvV6iYtDFGZVWNDWA_5rjCMOKC0OMK31JsAg-WH9c4qDq8rkzNbknmqO-IhQ1tMUSc3iJlZhJOve-_B4KrfsaSLkp-rqTyeoWoCvYMr5PbXJOXLqcV=w400-h300" alt="Jaipur & Amer Fort - Photo 13" loading="lazy" onclick="openLightbox(77)">
+              <div class="photo-overlay">
+                <span class="photo-number">13</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="78" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOIyLzKaHx7gtBPud5BcsEK0FizUVyimfgQ6pIKlxBJzLszh0ojOjg-yg9MzWIrxIS2M8XDSW_HjbrYpzMht_fWi4xo8sy_ZS7J9MbJMvcaTbwGWzU1=w400-h300" alt="Jaipur & Amer Fort - Photo 14" loading="lazy" onclick="openLightbox(78)">
+              <div class="photo-overlay">
+                <span class="photo-number">14</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="79" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMuL938iJp_wxV6Zey2M-NibKC_1ist7KO-_RgVwIdqrk8XPcd1jgfVtBB1OKIMl1FpUDeiVPRmRMr8syh93ayTYvuJP2wbPG1yzakkylX8_4P9VIl1=w400-h300" alt="Jaipur & Amer Fort - Photo 15" loading="lazy" onclick="openLightbox(79)">
+              <div class="photo-overlay">
+                <span class="photo-number">15</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="80" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMVENKGCCmOhbb1R6VJqNdi2ZImQJ-qxslSF1h2M7Na5LnXxA73XtR5UCx6pHqrgNe-7snHNqJEjsUhnmBfOgQG2fLOsoNnNlsMT-FuVCOrMrqtr0JN=w400-h300" alt="Jaipur & Amer Fort - Photo 16" loading="lazy" onclick="openLightbox(80)">
+              <div class="photo-overlay">
+                <span class="photo-number">16</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="81" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMlTOawQNY0XWvfKJfPcljH-QSaxM_t9oZCqxPzk4yw4vNcqPchpNZBAYPmt1BBAd3DRqOLq6YKp2zmxfeSDOwCmlj3bLCVl_f4DLcmzCaElV3UtIYC=w400-h300" alt="Jaipur & Amer Fort - Photo 17" loading="lazy" onclick="openLightbox(81)">
+              <div class="photo-overlay">
+                <span class="photo-number">17</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="82" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMc4um5A6Oo9fAqxHC4QY-JvxAPqCUP1pUv7D6uQ2c7x7p2p9mFdyLaZ3eKCxoqS355wYjSxynQbIJJy6knLbnga6ryApFomjaq0ETPMApLP05vaULu=w400-h300" alt="Jaipur & Amer Fort - Photo 18" loading="lazy" onclick="openLightbox(82)">
+              <div class="photo-overlay">
+                <span class="photo-number">18</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="83" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNBflSn630f_8kinWTLdcb6sPiBpAgTLlG9JWTOoUuHhWCR9qwlgKeU98qt-QAwRXeXosZ0dJ-dJs3plvxuroHL_L2VnlN5MmhEhk4ndR2Pn3hardgB=w400-h300" alt="Jaipur & Amer Fort - Photo 19" loading="lazy" onclick="openLightbox(83)">
+              <div class="photo-overlay">
+                <span class="photo-number">19</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="84" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPfQv3-OJYE33DVUCNRlHYWgDRqJQfk29saEqjo1n_SEHJasyMxv2mjEdsNqSAMcdUgJURXG6T6PkW9bG0d3cEVpGrxK1LM5h64xvF5WR7WUk3fgZ1z=w400-h300" alt="Jaipur & Amer Fort - Photo 20" loading="lazy" onclick="openLightbox(84)">
+              <div class="photo-overlay">
+                <span class="photo-number">20</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="85" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczOS3UzPdVWigF8z52_u_e-XmOArEQsOegrUuXtuVQYFPjedWqPaZGjJ7v-f8oyxhctcqNQQfwgX-tuJxS9E-sCvaObgUTLwYOVax_cBnYJHlO1Gko8d=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczOS3UzPdVWigF8z52_u_e-XmOArEQsOegrUuXtuVQYFPjedWqPaZGjJ7v-f8oyxhctcqNQQfwgX-tuJxS9E-sCvaObgUTLwYOVax_cBnYJHlO1Gko8d=w400-h300" preload="metadata" onclick="openLightbox(85)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">21</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="86" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOBOlhBzsHJNvLNxI0EFEIVeoQtbLdcAIwltk_pZufYrpHTLsAhoKmh4n97__uH_ks_ECCCrJFEmfX-ywJt1Z1BBNSggY5d1Ok0rHnHDX9IasuOxUPb=w400-h300" alt="Jaipur & Amer Fort - Photo 22" loading="lazy" onclick="openLightbox(86)">
+              <div class="photo-overlay">
+                <span class="photo-number">22</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="87" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczO3xb7eQ05v3HOxgNy0Tvt7fphxqehL_PIxUyQtpBSUUQfzV3gYdVAhCr_SoolNt4I-lGNrjlVGLPb6YOE-If9I-r-c3c4L4BjUuTtDDccec4txoCyu=w400-h300" alt="Jaipur & Amer Fort - Photo 23" loading="lazy" onclick="openLightbox(87)">
+              <div class="photo-overlay">
+                <span class="photo-number">23</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="88" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPIHaLMVezsNBCOUzI3sCpRNqUHg4waUrbqGgccHUEoVU8khisqqIpYqF6STBA0NWP65a9MAhdXXc7OqGFIzbLyIVeXypuOZXyKJ8_JgMwutAPlkYOJ=w400-h300" alt="Jaipur & Amer Fort - Photo 24" loading="lazy" onclick="openLightbox(88)">
+              <div class="photo-overlay">
+                <span class="photo-number">24</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="89" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNKWBNUzZLkaGfhvAB0f0kRBfBuqgZIRs8SuyFy5sbrtNkxzjP_72yRtkGfTkkJwDVq_WztSZz_5F1JzkYqoyw8XEzKTMrdyuEUyhGkXNcdI9q_U8ku=w400-h300" alt="Jaipur & Amer Fort - Photo 25" loading="lazy" onclick="openLightbox(89)">
+              <div class="photo-overlay">
+                <span class="photo-number">25</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="90" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMJUl-hqseckp5hgsZcFl9fwTjtFf9GLhSyLGg-a1rLRnsVBAHnKpcs80Y6uy4SXL4HRV-xuHpwaJUyvY2ltiWKYu8e8i6cbF-ytaPv_N23SnDNOMiF=w400-h300" alt="Jaipur & Amer Fort - Photo 26" loading="lazy" onclick="openLightbox(90)">
+              <div class="photo-overlay">
+                <span class="photo-number">26</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="91" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPZF-8OzgWXq6xDSS-gmtnBFUspFit9YXd9k5xpakGz2_SKy2AnbSveeiu7iBhOid0kJoI-J9cI67cqN0rBA04ObkAkL_BNjnafond2rnVdT3W719iO=w400-h300" alt="Jaipur & Amer Fort - Photo 27" loading="lazy" onclick="openLightbox(91)">
+              <div class="photo-overlay">
+                <span class="photo-number">27</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="92" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOhWjWLsQji4RImuOwW17NMIIN_F_e5iGtmfcXSFweCAG1Aa5F0MKDhOKlJB2OQIElGrAkFxnQYNBi40632LFoGtZWiz1p1LQZzjSGwHeKzwDUifW1Q=w400-h300" alt="Jaipur & Amer Fort - Photo 28" loading="lazy" onclick="openLightbox(92)">
+              <div class="photo-overlay">
+                <span class="photo-number">28</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="93" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPrbJU6Czmw7237_GbBFzx55jHd7xB2MIfMnhP_rRjdUnLHsXUfXSzNOCehcbKIjiuy0cLKMlXTXy5CngJlFEkft7BvV_kcHRZK6IvnaFR6O01Mw8zY=w400-h300" alt="Jaipur & Amer Fort - Photo 29" loading="lazy" onclick="openLightbox(93)">
+              <div class="photo-overlay">
+                <span class="photo-number">29</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="94" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNZjAxLXXGAphbvFBqLrtWCTPQvU7EimeFevz9Bu17DKk9rCFFFZ86ZtDSuQuDjp3seFWSTn4gTycGx93Bo8CSlA2QfAFoXzXRGc3QOFzLO2MoByA0C=w400-h300" alt="Jaipur & Amer Fort - Photo 30" loading="lazy" onclick="openLightbox(94)">
+              <div class="photo-overlay">
+                <span class="photo-number">30</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="95" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczO8Fi2Llnc1GuDwCHZTg49fZF83rKzeGGwnKbiBSKIz_EK6jax0Xv9Q-xLIqimXc5869p_30FBoZOjGuWbDiAup_2sJtNYbq1KKO5LB5Srx-kDCGUYo=w400-h300" alt="Jaipur & Amer Fort - Photo 31" loading="lazy" onclick="openLightbox(95)">
+              <div class="photo-overlay">
+                <span class="photo-number">31</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="96" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczN_sBOdXmdCKxGY9p6gBpsOqeqQwfVdzg1lkWmnRzy7Qf6RslMSWt3EcGm4g0lvZCsK29HSdAglALY0mStOeZCuFh5WSqnJGeP9CMpZgvJEVKCtncVt=w400-h300" alt="Jaipur & Amer Fort - Photo 32" loading="lazy" onclick="openLightbox(96)">
+              <div class="photo-overlay">
+                <span class="photo-number">32</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="97" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNv9Sf3hRAkYGOtmCeaAoGxpDXbGVE4CVTIFWU9qtUzhXQ924yaQwrbdEKQY_H4c26uGtI_cr6enR52sd3JW8I24FLPXV1fT7a5yaLWTPRvQLR-cIN9=w400-h300" alt="Jaipur & Amer Fort - Photo 33" loading="lazy" onclick="openLightbox(97)">
+              <div class="photo-overlay">
+                <span class="photo-number">33</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="98" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMtE2j_TfN0yAJy7dzp5eeUh-VxLl7EcBocQBwoUFYP8xgtZDfQQ_ZLtWyelMBkFegntu9Wlg_kN01rAw9w0zfnu2sAIw2LNuMTXLPDbK0bMsAp2VT5=w400-h300" alt="Jaipur & Amer Fort - Photo 34" loading="lazy" onclick="openLightbox(98)">
+              <div class="photo-overlay">
+                <span class="photo-number">34</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="99" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMmPPpI1fbxo2205eyMGjdJXbvUXiGbPNAhfBUXQuCD3dveg46WN9SQ4AZGh3GyafxVQeFo_eHXoH74uXwCM7MMoec9JAQTzDPyOGGUNjTSDkqYXsy8=w400-h300" alt="Jaipur & Amer Fort - Photo 35" loading="lazy" onclick="openLightbox(99)">
+              <div class="photo-overlay">
+                <span class="photo-number">35</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="100" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczP_jdy2aBqUQ85nvKhfh6WCmxkZHi8TGrrzTlxFoqnWAa5yddN6tTkWh91GQupO6MNdYUWO5ZncmcrrfmLPlUWzF5OCaoMcGGLfgez7rKKzRbGT0Y8T=w400-h300" alt="Jaipur & Amer Fort - Photo 36" loading="lazy" onclick="openLightbox(100)">
+              <div class="photo-overlay">
+                <span class="photo-number">36</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="101" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczNXmoPjh-XnQ8_g2dQuSR6zJIpg3ey-QyBIulOaehlwyQbWFkKD2hzxJy-iLokAIUdo7dJkM8K2m9epm_SjxtfF9YBI-l1WS870JNRg9Ro1UKVCBAmP=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczNXmoPjh-XnQ8_g2dQuSR6zJIpg3ey-QyBIulOaehlwyQbWFkKD2hzxJy-iLokAIUdo7dJkM8K2m9epm_SjxtfF9YBI-l1WS870JNRg9Ro1UKVCBAmP=w400-h300" preload="metadata" onclick="openLightbox(101)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">37</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="102" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNIKE6cWCl3Tt3dlUpS4_6SyL0PYqAlYeaYJl9tRyFu0rwTgIZ-GjruFt4Kpccmz4inC9Gcex6FbWbqnRkL6fvGV_LTDEOKcbm6npGC3aXVcJn8vlmK=w400-h300" alt="Jaipur & Amer Fort - Photo 38" loading="lazy" onclick="openLightbox(102)">
+              <div class="photo-overlay">
+                <span class="photo-number">38</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="103" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczNwTM7B6wvHuD6-E68U1a4mtDCHmmH0FqNtzYzdImXD6negW6lBAL1cXhHIXPGxT8MAXV70JwM9c15lqGsk7hd1sockaVER-GXDYgbifAoQsFqj48Gw=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczNwTM7B6wvHuD6-E68U1a4mtDCHmmH0FqNtzYzdImXD6negW6lBAL1cXhHIXPGxT8MAXV70JwM9c15lqGsk7hd1sockaVER-GXDYgbifAoQsFqj48Gw=w400-h300" preload="metadata" onclick="openLightbox(103)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">39</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="104" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPV2rAGy9o1_T0f_1J_rNxYyG4mgDCocruQC8ECJ0u3TXdI5ZnshnYmYZypyXjnwcwdW8JugAmdM7dUmg1nXTmMM7bAZzVRGcrs47Mr_ULuDVQuh_1w=w400-h300" alt="Jaipur & Amer Fort - Photo 40" loading="lazy" onclick="openLightbox(104)">
+              <div class="photo-overlay">
+                <span class="photo-number">40</span>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="location-section" id="jodhpur">
+        <div class="location-header">
+          <h2 class="location-title">Jodhpur - The Blue City</h2>
+          <p class="location-subtitle">Where the Sky Meets the Streets</p>
+        </div>
+        
+        <div class="location-content">
+          <div class="location-description">
+            <p>From a distance, Jodhpur looks like the sky has melted into the city. Spread beneath the magnificent Mehrangarh Fort, the old city is a mesmerizing maze of blue-washed houses that seem to glow in the desert sun. Why blue? Some say it was to denote Brahmin homes, others claim it keeps the houses cool – but whatever the reason, the effect is absolutely magical.</p>
+            <p>The Blue City has captured the imagination of filmmakers worldwide. From "The Dark Knight Rises" (2012) which featured the imposing Mehrangarh Fort as an exotic prison, to numerous Bollywood productions, these azure streets have provided the backdrop for countless stories.</p>
+            <p>Walking through the narrow lanes of the old city, with blue walls rising on either side and the massive fort looming above, feels like wandering through a painter's dream. The warm chai from street vendors, the friendly waves from locals peeking out of blue doorways, the call to prayer echoing across the rooftops – Jodhpur captures your heart in the most unexpected ways.</p>
+          </div>
+          
+          <div class="location-highlights">
+            <h3>Highlights</h3>
+            <ul>
+              <li>Iconic blue-washed old city houses</li>
+              <li>Mehrangarh Fort featured in 'The Dark Knight Rises'</li>
+              <li>One of Rajasthan's most photogenic cities</li>
+              <li>Rich Marwari culture and cuisine</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="location-gallery">
+
+            <div class="photo-card video-card" data-index="105" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczOTawHVtdtUQnlXhq4oPTmIG7570BSiZI8ae2alCKEoAs0vnp9g1rUPaDgdcKTe2gTqNrO6BoYvnJKamzTRn9lTq7b8C-EEjYo-V7sibERr-SUvhoNZ=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczOTawHVtdtUQnlXhq4oPTmIG7570BSiZI8ae2alCKEoAs0vnp9g1rUPaDgdcKTe2gTqNrO6BoYvnJKamzTRn9lTq7b8C-EEjYo-V7sibERr-SUvhoNZ=w400-h300" preload="metadata" onclick="openLightbox(105)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">1</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="106" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPDlDHqDMeJtRZueVUv2xp3IBgZp-BA6X9G_SbOZjne3fnjQRsjro8YYDTo0u-Ec_mxyZcrRnyZiQwqB0lCU3VS2kf6rSFxey7FjIYlpjw-cOWYcTrH=w400-h300" alt="Jodhpur - The Blue City - Photo 2" loading="lazy" onclick="openLightbox(106)">
+              <div class="photo-overlay">
+                <span class="photo-number">2</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="107" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNxnBUV05fAi60HiG-PBy48IUasyx6lSjvEj6hrxYXv15PypwGEIvW4ogAUJZ0qqR_fUcgQOZ9Y__-83nhCahPpDW68doDIbTUOyaIH56dgyvlqF0Dc=w400-h300" alt="Jodhpur - The Blue City - Photo 3" loading="lazy" onclick="openLightbox(107)">
+              <div class="photo-overlay">
+                <span class="photo-number">3</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="108" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOuRFskZm_nUiZmcPoT1fiKRJarW0fI1m6W4mXN2s2hTuPgd4n9fMW0kAwb3ZZM5fXtBvPWw-IWbT_bDo2iS9y-Mnvpyx4bsbanwRC7wCR7SetvYcDQ=w400-h300" alt="Jodhpur - The Blue City - Photo 4" loading="lazy" onclick="openLightbox(108)">
+              <div class="photo-overlay">
+                <span class="photo-number">4</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="109" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOrUpvfqr4nCQgOpcg5k87I0aNG6JDQoST3fkSXY_uePiNkfxZ2-8l-ILnp2UfkISQGbY_uPRnShR_HozXmdEr4hsMGdXofqUyj96i9IMEco3TOoRfs=w400-h300" alt="Jodhpur - The Blue City - Photo 5" loading="lazy" onclick="openLightbox(109)">
+              <div class="photo-overlay">
+                <span class="photo-number">5</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="110" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNJI7I9V0ngwaubkXwg3JyN8lRXdgfGO_AIv6B_AHaWiUuBIAo9F8iB_38PT8zTWGReSkuIY2Fa24n7rVLI1juxVI0UXxkH50BH_-6qSATZwsXcQowJ=w400-h300" alt="Jodhpur - The Blue City - Photo 6" loading="lazy" onclick="openLightbox(110)">
+              <div class="photo-overlay">
+                <span class="photo-number">6</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="111" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczM_qjxY6PYtDGE8S35Yc01lDMb48mN6xNymKWEedNzkxuTBq8AbiCrklWsa75xftuVbkpiyhLL4fC0WsXud7U7zxB0crapcYj7WjS_GpcVaSwRkKh7m=w400-h300" alt="Jodhpur - The Blue City - Photo 7" loading="lazy" onclick="openLightbox(111)">
+              <div class="photo-overlay">
+                <span class="photo-number">7</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="112" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMViZVE-8snPXFducnMdTrWDMUo_J9zq2CDWsQCUeyhzOoQV5sDT4KfNNMfJ8_6lUnrVat5jfcq62yo5X6-zI8vL8e1RsHgY05pWGeUxz-Loe1uRFJ_=w400-h300" alt="Jodhpur - The Blue City - Photo 8" loading="lazy" onclick="openLightbox(112)">
+              <div class="photo-overlay">
+                <span class="photo-number">8</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="113" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPv6gjZpRlfW1IEGtxphdXClhR_uUpWYHNF-gcJalWBbC5WZSha_jf8UfxV4_WH3WkUDmvuj31R0Ap0XdLnlRxOiCfH50JtGOvUbOadYdN1aHpq6ZO5=w400-h300" alt="Jodhpur - The Blue City - Photo 9" loading="lazy" onclick="openLightbox(113)">
+              <div class="photo-overlay">
+                <span class="photo-number">9</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="114" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPrF7SKiYGR1EPLNPGpmZbchUn-zPGIjTpqPbcc22aw7pbbS2r9Tyq7DUxg9dqHuiRoyiF5EX4TwrDVgqpxahd6iFQPBP4J8aGi5ddSEc6DpXVO2hc1=w400-h300" alt="Jodhpur - The Blue City - Photo 10" loading="lazy" onclick="openLightbox(114)">
+              <div class="photo-overlay">
+                <span class="photo-number">10</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="115" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPrKeyvmsRT2f4hCJcLarGD0GZQEtLcyQNYtxRNwg6zGLy2UCaAQ8IXbfHc8etbM50Nhq2DAJUgjRvvy_SNKoLPnPbAtddxg3UCfJQ3eJKPgcyX099q=w400-h300" alt="Jodhpur - The Blue City - Photo 11" loading="lazy" onclick="openLightbox(115)">
+              <div class="photo-overlay">
+                <span class="photo-number">11</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="116" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNMmKXUtw1RZ0rEipLAPQq3A-z7BjXHWXuoH1J89vWcYinKjv-ZCI-N_q-zPFpFtENpRqaf3rU2TbqcCUYrCraobUmmIlPAvQU3MwV0MeRyQgAh16eJ=w400-h300" alt="Jodhpur - The Blue City - Photo 12" loading="lazy" onclick="openLightbox(116)">
+              <div class="photo-overlay">
+                <span class="photo-number">12</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="117" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNXuKj97dQM3LzdzWHlme0vWSupYea9SeNkNBc_0zkl5jZOswMk0X1Bo68dH1ysW3a0g58sShwbJMvnsntCRJdGBrPQjZM4xqT3yz8N9zVpp0Ko5ZPL=w400-h300" alt="Jodhpur - The Blue City - Photo 13" loading="lazy" onclick="openLightbox(117)">
+              <div class="photo-overlay">
+                <span class="photo-number">13</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="118" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOm-QqvUDF6lyuRwL4T9S29rqNiKO3WwGRaV3Xo0XvRqXgpoF6rfd3aQC0meZ3cnhnND8Bzmc-0KoGju1dLr2rJ2DKciqs5x30gS7MTRoHhszRozwPx=w400-h300" alt="Jodhpur - The Blue City - Photo 14" loading="lazy" onclick="openLightbox(118)">
+              <div class="photo-overlay">
+                <span class="photo-number">14</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="119" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPde1azVLjmzreNsCMSCNnZ8_IXP_dhUNfynaQtmooH0hLXerUyTJ37FZpEvyP-rEj_O5_pmWHsFKKooqfPwzpzFBfbNlTDH1kFSTN3C8ayr1Mf3JR1=w400-h300" alt="Jodhpur - The Blue City - Photo 15" loading="lazy" onclick="openLightbox(119)">
+              <div class="photo-overlay">
+                <span class="photo-number">15</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="120" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMHQ1faiyyZ94S7RGibgPdggZaU4wxoKh7UWPmgFZGArC0gClNjYJbz2ziNpFOWQLNrfk3NDxXsc0Z5r-CTPf2tfUPmpLVdb-IvtIcfZn_8QI3KHF9B=w400-h300" alt="Jodhpur - The Blue City - Photo 16" loading="lazy" onclick="openLightbox(120)">
+              <div class="photo-overlay">
+                <span class="photo-number">16</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="121" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPFSNB4V5poXBenTeGQAINwyIICEnYTNFO3fNOtH2NhccAE-7YerxYCtGLZlB_HzG99CUkrP84LXvcCWrZ1qVZ3MbTzmC_uk1381_qZjzyl3qaAGemB=w400-h300" alt="Jodhpur - The Blue City - Photo 17" loading="lazy" onclick="openLightbox(121)">
+              <div class="photo-overlay">
+                <span class="photo-number">17</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="122" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMyehgP_d73D2kzIINnsOoqS1CRI0ISkSBUfxZ241TNt4nJtQbm9Zmfs8JQCpIqwuxGbNs89C9QEMwt3fSJ6jF_h4KTJIDbfbJuRDroRJyOAU_FZizX=w400-h300" alt="Jodhpur - The Blue City - Photo 18" loading="lazy" onclick="openLightbox(122)">
+              <div class="photo-overlay">
+                <span class="photo-number">18</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="123" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNSQO_JycyZugtXL0dMg63hNIArqfIUVTA2N1BP_YVw8m6ybMRbort72TAvxdPz4Zuw7uVBrSyPtci7BDXM4T0AkfPMh-c0L8ZFMu0IYu_veTOxImzO=w400-h300" alt="Jodhpur - The Blue City - Photo 19" loading="lazy" onclick="openLightbox(123)">
+              <div class="photo-overlay">
+                <span class="photo-number">19</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="124" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPrgkY4V_LP-sjTiZK6XKEn_yD2B27QYeyqc5TECnc6WVjpmNM2Osu7z9RtawfFROxLMkv7vxQAvNgpsH-vhybJ-40nONgcQ9v9Xx28Yf3TC_jvCPxU=w400-h300" alt="Jodhpur - The Blue City - Photo 20" loading="lazy" onclick="openLightbox(124)">
+              <div class="photo-overlay">
+                <span class="photo-number">20</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="125" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPJ701kgm3QQjY4d3nuHqGTt8uKeWrs1ytI1zN4WqhVyw6KM3IozfNs1O5VRIkZJD2dOiOqNP43DIs08WdRQc4AMhS4QHiYicxGl-3ex2owkaN8O8kb=w400-h300" alt="Jodhpur - The Blue City - Photo 21" loading="lazy" onclick="openLightbox(125)">
+              <div class="photo-overlay">
+                <span class="photo-number">21</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="126" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczNaw3TxOTYiBHzOecbNCv4AMGf572WNJ-EPbqmGsZkahEaebhTlecZI7sXcRKX8o35SVMxAVidKmmY5I6pRYXnFrT44oXpl2U0VRB21PQRwBFMxOoVF=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczNaw3TxOTYiBHzOecbNCv4AMGf572WNJ-EPbqmGsZkahEaebhTlecZI7sXcRKX8o35SVMxAVidKmmY5I6pRYXnFrT44oXpl2U0VRB21PQRwBFMxOoVF=w400-h300" preload="metadata" onclick="openLightbox(126)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">22</span>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="location-section" id="jaisalmer">
+        <div class="location-header">
+          <h2 class="location-title">Jaisalmer - The Golden City</h2>
+          <p class="location-subtitle">New Year's Under the Desert Stars</p>
+        </div>
+        
+        <div class="location-content">
+          <div class="location-description">
+            <p>And then came Jaisalmer – the grand finale of our journey! Rising like a golden mirage from the Thar Desert, this ancient city welcomed us with open arms (and spectacular sand dunes) for an unforgettable New Year's celebration.</p>
+            <p>Our adventure began at the desert tent camps – and let me tell you, these aren't your regular camping tents! Think luxury "glamping" under a canopy of stars so bright you forget you're on Earth. The New Year's Eve dance party under the desert sky, with bonfires crackling and traditional Rajasthani music filling the air, was pure magic.</p>
+            <p>But the real thrills? The camel rides across the undulating dunes at sunset, the ATV adventures that kicked up golden sand clouds, and the jeep safari that bounced us across the desert terrain. Fair warning: the jeep ride was INCREDIBLE... but also a firm reminder that we're not as young as we used to be! My back definitely had some opinions the next day. Worth every bump though! </p>
+            <p>The sand dunes at Sam village, about 45 km from the city, offered the most surreal landscapes – watching the sun set over endless golden waves of sand while sitting atop a camel is an experience that belongs in everyone's bucket list.</p>
+          </div>
+          
+          <div class="location-highlights">
+            <h3>Highlights</h3>
+            <ul>
+              <li>New Year's Eve celebration in the desert</li>
+              <li>Luxury tent camping under the stars</li>
+              <li>Camel rides, ATV & jeep safaris (memorable for all the right and wrong reasons!)</li>
+              <li>Sam Sand Dunes at sunset</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="location-gallery">
+
+            <div class="photo-card" data-index="127" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPl23FFiJgEBSRWzqED02w39Io6vP5away46DCqBkpYxdgrXaE5-96-nUqnhLFsaB2ydcXMl34Exl6cxynXY9lcQ6xMxGXuiMlkyDDgubbJWCV_BmKk=w400-h300" alt="Jaisalmer - The Golden City - Photo 1" loading="lazy" onclick="openLightbox(127)">
+              <div class="photo-overlay">
+                <span class="photo-number">1</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="128" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOxIsMHBYP_uFzp22B9M6U2PuXJV8fqSr8Efn0enX3atST9ly2Pa1PWOF6DXpYvIdrBAaz9pfBoELJ1rJYslU284ZlaCFX1vbeSlELaIRFOVyV0kNpa=w400-h300" alt="Jaisalmer - The Golden City - Photo 2" loading="lazy" onclick="openLightbox(128)">
+              <div class="photo-overlay">
+                <span class="photo-number">2</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="129" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczNOT3WPCiPRyIOlZ1vnOF_x5P7uCkFpQTaLROjNvQpWbmKD6Ar4WvLjo5gF0YkCZ7_Je3-zcvRVFYJTA4wOVe2_Vr4_rBe4iPJTCpPwrNlB_drq6VJy=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczNOT3WPCiPRyIOlZ1vnOF_x5P7uCkFpQTaLROjNvQpWbmKD6Ar4WvLjo5gF0YkCZ7_Je3-zcvRVFYJTA4wOVe2_Vr4_rBe4iPJTCpPwrNlB_drq6VJy=w400-h300" preload="metadata" onclick="openLightbox(129)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">3</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="130" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNO1Qx14EQ_t8wRtjqnchnmCIlNOpgpVTfiNr8UKnIDY70ydPuL0abvrCoyXVZdUXlZIcrMt27nWOHNmJJx9Wb-4Ts8cRW4UUwZMK-v9Ahl8gUa_H1V=w400-h300" alt="Jaisalmer - The Golden City - Photo 4" loading="lazy" onclick="openLightbox(130)">
+              <div class="photo-overlay">
+                <span class="photo-number">4</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="131" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOU1khxUALNkwFz7ksESlmGOw7taKy2_6UO8ccTVSRXHOEkEdXZ-rAvewp77rzmPT0znn9oNvP0Eh8_tzh0TT95OLZ6Z3jIvBrjf3KpNQ5N2hj6ZB8N=w400-h300" alt="Jaisalmer - The Golden City - Photo 5" loading="lazy" onclick="openLightbox(131)">
+              <div class="photo-overlay">
+                <span class="photo-number">5</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="132" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOGO6jce9tDzwmxNGdNzOjgYEMKpa3KV-Xs55YPlnIDHpw1VvWvjMmkeHiOH134Y4Uz8qdkc3MQjb0GE8pDhIv8YoR_9YsdNRbV4qIXdOqfrd3aWyr_=w400-h300" alt="Jaisalmer - The Golden City - Photo 6" loading="lazy" onclick="openLightbox(132)">
+              <div class="photo-overlay">
+                <span class="photo-number">6</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="133" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPIXmzvYb_W6oTzt2K_WDBg9C_IWxv1NspfBrG3iwP9W8WmH9WMD5DoV_7f80XU6gtudqfGtDun_BQ8FlQ-872_r05tF91Rrutn0Go_8fE4T_hy9rpr=w400-h300" alt="Jaisalmer - The Golden City - Photo 7" loading="lazy" onclick="openLightbox(133)">
+              <div class="photo-overlay">
+                <span class="photo-number">7</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="134" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMq0mLCoJL3HabOrA_5ri0JEp80p60VtQU3dtuZ018JpFZxIPvQkPgtADaS-BiimNYPxRbAICJLYhm3DSskJOgWwxpKY_OUc3Ti4fOhEDBtv9rGRaiW=w400-h300" alt="Jaisalmer - The Golden City - Photo 8" loading="lazy" onclick="openLightbox(134)">
+              <div class="photo-overlay">
+                <span class="photo-number">8</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="135" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOViysgvdWxq0iQeTCcv_7ULQ-21YyCQMf74AxkFWYVPRHwQZd5dgKysnlABdM6cbDvkFBIS_hta9iQk1IFley5ADDGGjUr8U7jsGJ8He0WunqmEOdW=w400-h300" alt="Jaisalmer - The Golden City - Photo 9" loading="lazy" onclick="openLightbox(135)">
+              <div class="photo-overlay">
+                <span class="photo-number">9</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="136" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOYtMHuGUAhE8XmbknUrNOAqpNI4etDjADKX_7rEdZOXdnOotVV7phJk101PWzH2ZOAbRcH4rrHEJisN2eRKrFTtRkIyx2mTozte8YlD1AfY07a0X8c=w400-h300" alt="Jaisalmer - The Golden City - Photo 10" loading="lazy" onclick="openLightbox(136)">
+              <div class="photo-overlay">
+                <span class="photo-number">10</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="137" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczN1h_PSawV5BHHkr7oCABobE7d5gDNk1q5uxoJqS0rikFcz3pIwA1zMwwmn0YCDqGt8reqKMkk3nMIoMo3S6qdx68SRTfOXPXPHwByhZxI0mWY4W0EJ=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczN1h_PSawV5BHHkr7oCABobE7d5gDNk1q5uxoJqS0rikFcz3pIwA1zMwwmn0YCDqGt8reqKMkk3nMIoMo3S6qdx68SRTfOXPXPHwByhZxI0mWY4W0EJ=w400-h300" preload="metadata" onclick="openLightbox(137)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">11</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="138" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczP98AIRQ2JCcY226NKx5ZNUS2dCF98XMYFwEm4OghUgCqltSNeTJ-kUrMfz_R7AHia6basxt1bsUT-JPtZYAucFJEocXxDIuSMVyHSVk-ki4P0Omh37=w400-h300" alt="Jaisalmer - The Golden City - Photo 12" loading="lazy" onclick="openLightbox(138)">
+              <div class="photo-overlay">
+                <span class="photo-number">12</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="139" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNqyKi9R-tvUkB7REUvWcSf-v58jHf6V55UhOqV9qgP1Lu0P-IjfhUt84aJVoEBQK0gA6NskzHEXHry1iSmQ24AmeRKnejlDzH1zIxcHtLdXZSINA0G=w400-h300" alt="Jaisalmer - The Golden City - Photo 13" loading="lazy" onclick="openLightbox(139)">
+              <div class="photo-overlay">
+                <span class="photo-number">13</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="140" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczORab6Prf-f1teSFecgKm2rvpGfkomeN7QSO4arPktaiZie0rNlN_7LDGm87wMDVxKytpbxbWj_Q5OzksOe7dCY-NkT4zuQKswI-xTyrG7rHxKIUAri=w400-h300" alt="Jaisalmer - The Golden City - Photo 14" loading="lazy" onclick="openLightbox(140)">
+              <div class="photo-overlay">
+                <span class="photo-number">14</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="141" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczM35aB16zn995H3bj882pOpai5nAgS-tiHbXLTrDvJcowRexf7Ug8oWuk9nGnEASFyzZTCjbJE4f8bg_IkeOqZ4_YTpJxnQ95zTp3CWPJAWHOM6ze0R=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczM35aB16zn995H3bj882pOpai5nAgS-tiHbXLTrDvJcowRexf7Ug8oWuk9nGnEASFyzZTCjbJE4f8bg_IkeOqZ4_YTpJxnQ95zTp3CWPJAWHOM6ze0R=w400-h300" preload="metadata" onclick="openLightbox(141)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">15</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="142" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczN8QDfkXBKFa28cD2lYt00fSK9xvcaeygBGS-SKUnrwbMYZcIRpUSlX2h4HYRfUh_J315snoaiqodlaI1pFTqP39i-KN5UgavSRm4laKEmG7DKj4eu7=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczN8QDfkXBKFa28cD2lYt00fSK9xvcaeygBGS-SKUnrwbMYZcIRpUSlX2h4HYRfUh_J315snoaiqodlaI1pFTqP39i-KN5UgavSRm4laKEmG7DKj4eu7=w400-h300" preload="metadata" onclick="openLightbox(142)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">16</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="143" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOhI6WdHscr5Eh4bAcu18O62o1JEwEQQ9awGI-cqaGbN4oqJYhKtQKwdlWT6npDXyPq7dkPKwDvwTfM0r8USmllQtmU-KN7bgCOe5f_vPGTOIFRA9dH=w400-h300" alt="Jaisalmer - The Golden City - Photo 17" loading="lazy" onclick="openLightbox(143)">
+              <div class="photo-overlay">
+                <span class="photo-number">17</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="144" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczP90QuVs8oL31GRtx0PWN_oFRvqXZvcRtCCjHqz8BDrcviuRWKANW_t1LCdWei5qpjfts3IWGVNUxNnHUpJIp0L_jcss6dEwPbGpypiMuvAledmanfM=w400-h300" alt="Jaisalmer - The Golden City - Photo 18" loading="lazy" onclick="openLightbox(144)">
+              <div class="photo-overlay">
+                <span class="photo-number">18</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="145" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczM3LrrmTIlmbZzNLsRxLf4AW8_86u5xcNvsSnlGOuz23gPBYa8gMa0xzVarRXm65oanjKVjUZiOyIBfsDsrDOYGlZO9Ku1-oKNaSeWRgPmQm8x7vYEv=w400-h300" alt="Jaisalmer - The Golden City - Photo 19" loading="lazy" onclick="openLightbox(145)">
+              <div class="photo-overlay">
+                <span class="photo-number">19</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="146" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczP07SjaENf24_5OGcjEESCgbt0BronIHsrRhtwsMGqec0Pyx-vyj84xgbsMd6tNeFGKw3EQIz8Q1kkd4mV0vyKYYcu1jcieucVnMlpSfsxGaF-PVFuc=w400-h300" alt="Jaisalmer - The Golden City - Photo 20" loading="lazy" onclick="openLightbox(146)">
+              <div class="photo-overlay">
+                <span class="photo-number">20</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="147" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNm4zZopclYoFFh4-EYEtfgenEOVJC3YtTIP69x6suH5IFAogq7PRmmseQcxER-eUAs7Blh4QflLYps69GV3yF4fAOIbSG1LsVkuJkvwKnUqSJah_Ki=w400-h300" alt="Jaisalmer - The Golden City - Photo 21" loading="lazy" onclick="openLightbox(147)">
+              <div class="photo-overlay">
+                <span class="photo-number">21</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="148" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNY6msjgGW7k3Ie7mSFXvmg6NUgxf8ImPuxKz3FSwj0SwJBCzIXJvgwWk1m9KWH2j4T-AHPHwH06Pu2SLuEf9phWXC7N_1NeXaFyZDCMUrds_7sU8Li=w400-h300" alt="Jaisalmer - The Golden City - Photo 22" loading="lazy" onclick="openLightbox(148)">
+              <div class="photo-overlay">
+                <span class="photo-number">22</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="149" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczN1CapGJbzsRo71r4I-D-JpaHGdgncw8BCiJjBj3JgC_WqWx0YAG1ohLK-yzyAPwP9Ut4rBOtYnEIBX-FBzkT391aV6Gs0jxV2v8dtatILN2rqkLcsC=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczN1CapGJbzsRo71r4I-D-JpaHGdgncw8BCiJjBj3JgC_WqWx0YAG1ohLK-yzyAPwP9Ut4rBOtYnEIBX-FBzkT391aV6Gs0jxV2v8dtatILN2rqkLcsC=w400-h300" preload="metadata" onclick="openLightbox(149)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">23</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="150" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOShZVQYOLIMXP-6cN9d4x0aalivMm4AiNLOstVtM8dZu2VnwzvVAoMHDhrz6x4nLKSMksI4vmmykooKNZNkuafvkmUgBWR12jHakMGVe5Q4rkUo4jx=w400-h300" alt="Jaisalmer - The Golden City - Photo 24" loading="lazy" onclick="openLightbox(150)">
+              <div class="photo-overlay">
+                <span class="photo-number">24</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="151" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczOA4mZuvsD_d7ueZpe-kkD2RnxPE57kNHgfR_KiVOjLjGka3Jus07xNyOVdI5PAJ5tUVOyfpHOspNdIOON8LdQ4KxZa6ij7vxsPHy-hCLUyl7-LUcT7=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczOA4mZuvsD_d7ueZpe-kkD2RnxPE57kNHgfR_KiVOjLjGka3Jus07xNyOVdI5PAJ5tUVOyfpHOspNdIOON8LdQ4KxZa6ij7vxsPHy-hCLUyl7-LUcT7=w400-h300" preload="metadata" onclick="openLightbox(151)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">25</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="152" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOQDfbyw2Fp3Jkc0AK-vaIwu9DDEy-DkkKXEFUno4Lw4ctQ_6YmtnCJwlkkfFS8MITw3v8AxJ6JfyncnER71oRoP9gm82Rnp0pFDIG6Z1cJwCsfSTOp=w400-h300" alt="Jaisalmer - The Golden City - Photo 26" loading="lazy" onclick="openLightbox(152)">
+              <div class="photo-overlay">
+                <span class="photo-number">26</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="153" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPa1ZtW-K7jPRMqBmVXlR5lW06RJnWBhWSBJk9MPFWESL7Fnf2hONwyJ43gytH8YnAkMQBf_zrfHQEM6jHXHph9RSQRaVxfcPjtGzvDAKJhNnj-B4y5=w400-h300" alt="Jaisalmer - The Golden City - Photo 27" loading="lazy" onclick="openLightbox(153)">
+              <div class="photo-overlay">
+                <span class="photo-number">27</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="154" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOLXMa-t50nGfA2RoY90b3cIkfiWHhrUeDN9fpdDaGrruFNYWNRIXP_kBTse5KU9gQMRdgwJ6f-B06mwJ0nuT9KCU7TLLFidrd1udHiePcL98cqG41o=w400-h300" alt="Jaisalmer - The Golden City - Photo 28" loading="lazy" onclick="openLightbox(154)">
+              <div class="photo-overlay">
+                <span class="photo-number">28</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="155" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPlXFyHdlE4CJkvAnpNiqSwVuSsgQI1sf_jJ7cuFzu61wh9TCSyoZBsNBX2gshNkFcykU7F6LaBu_8VPshpa9WMt29BvE9kmbwE4aHttz_eEFu8G64O=w400-h300" alt="Jaisalmer - The Golden City - Photo 29" loading="lazy" onclick="openLightbox(155)">
+              <div class="photo-overlay">
+                <span class="photo-number">29</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="156" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOQ7LrmNHJF7u6DT7rbyUBLIspMl9mziaoUf_QarYHO4VX8tqDa_a0e0P3Uk5LMLAXHG6cPug0ISzUTabL9iLYIXHiM51tXeO1OOtRksjS7jXtkJmb_=w400-h300" alt="Jaisalmer - The Golden City - Photo 30" loading="lazy" onclick="openLightbox(156)">
+              <div class="photo-overlay">
+                <span class="photo-number">30</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="157" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczPPq_L_8-HC7koM3_gXRFkAK2faSanqSFEhnKRuEK-vcG6qPP5cpRunP1xSa0wLt5Q5BECjB5O2DTYARgRuwniLWNG7Sa5U-_GSp8nGDlvwH_de_73_=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczPPq_L_8-HC7koM3_gXRFkAK2faSanqSFEhnKRuEK-vcG6qPP5cpRunP1xSa0wLt5Q5BECjB5O2DTYARgRuwniLWNG7Sa5U-_GSp8nGDlvwH_de_73_=w400-h300" preload="metadata" onclick="openLightbox(157)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">31</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="158" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPu_cccYpTIKhTeeVTDRvWPDrs9ZYt5rK1jn8NHRwU2vAx40B6TjORwN8Q3LNKvTdB7K7o6bSv_Ie8T4D30R4SKZ1U5Zqxg_OmxQwYr6tHlUEmtT9cs=w400-h300" alt="Jaisalmer - The Golden City - Photo 32" loading="lazy" onclick="openLightbox(158)">
+              <div class="photo-overlay">
+                <span class="photo-number">32</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="159" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNZmT18lG2XcWJ1xzMQhJti4a56aJJeJPNhPnZkcDqYqwqp88pxdAK0LigZd7LruAJzNKSjUIemrbXP2a5r0Azr1VHbAvkihPxPXLXsYX_RdHZ8BPX1=w400-h300" alt="Jaisalmer - The Golden City - Photo 33" loading="lazy" onclick="openLightbox(159)">
+              <div class="photo-overlay">
+                <span class="photo-number">33</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="160" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPKLHD0N27ASXrVTQNll8RJ6BILeH_GgdlTFDDO3LQoBiRmCfYw8ESdl82LCr4Vqo2bgtj9DSLhU3ejVAwrNtEESCzpU0t-zhzLo6msN-KLwkwzysco=w400-h300" alt="Jaisalmer - The Golden City - Photo 34" loading="lazy" onclick="openLightbox(160)">
+              <div class="photo-overlay">
+                <span class="photo-number">34</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="161" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMV2KM6KZxxCu7akzXZJfze1sbe2oGBcLYZL9HTchxPpDQwEsKyjCodFnCpCB__OS9u-16wt0l3l6gZXfbv22r8GEFKIWKEFb9DQX2bhdqs-bXBm94S=w400-h300" alt="Jaisalmer - The Golden City - Photo 35" loading="lazy" onclick="openLightbox(161)">
+              <div class="photo-overlay">
+                <span class="photo-number">35</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="162" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczNs0RRgEybqG4_6VyIUMstlhbdGk3QghjC2XHo4iY1TUPLfzV2VwoHFjuaM0gnOnZSgjkDcnmKLtA8d7G24qBQ963QjgLqImEQjbqvftBO4qMVolSE5=w400-h300" alt="Jaisalmer - The Golden City - Photo 36" loading="lazy" onclick="openLightbox(162)">
+              <div class="photo-overlay">
+                <span class="photo-number">36</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="163" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMHsdGVxinZfhbiqWA7nzGqSxbZOFR3MWgpaJVc4oz6jka2RNAZuqxESlWpj2OtwvrsR0MGZYLRfcJ9UDXj4dfek-VAZS8x5f_2P9VN_GXD1pVBCwYA=w400-h300" alt="Jaisalmer - The Golden City - Photo 37" loading="lazy" onclick="openLightbox(163)">
+              <div class="photo-overlay">
+                <span class="photo-number">37</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="164" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczP9YDFkrWQtp5zw3PowAXlzewOwwMEC4q79bI7nqr94UWS3a2zyfewU8qiVjOH9TPUphG8R7JQEaL-ktIwxYvUBLdVAdtq7cIPGaL3Yr7c1rL7Rj2di=w400-h300" alt="Jaisalmer - The Golden City - Photo 38" loading="lazy" onclick="openLightbox(164)">
+              <div class="photo-overlay">
+                <span class="photo-number">38</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="165" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOklC6Kqq99nZVW6IjKpPhjA1EkyrkLCZMuzok-GDqZ2D-7pfAt2TwA-rXOjcx01mnP4_FUJr8TFwQ5M5VwZerhWNEpbO97lpb_un2hOJkNE6pLPjdJ=w400-h300" alt="Jaisalmer - The Golden City - Photo 39" loading="lazy" onclick="openLightbox(165)">
+              <div class="photo-overlay">
+                <span class="photo-number">39</span>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="location-section" id="chennai">
+        <div class="location-header">
+          <h2 class="location-title">Chennai</h2>
+          <p class="location-subtitle">Journey's End in the Gateway to the South</p>
+        </div>
+        
+        <div class="location-content">
+          <div class="location-description">
+            <p>Our incredible adventure came full circle as we returned to Chennai – the vibrant capital of Tamil Nadu and the gateway to South India. After ten days of exploring the wonders of North India, there's something comforting about being back in the warm embrace of the South.</p>
+            <p>Chennai, with its unique blend of ancient temples, colonial architecture, and modern development, reminded us that India's diversity is truly endless. From the spiritual heights of Tirupati to the golden sands of Jaisalmer, and now back to the Bay of Bengal – what a journey it has been!</p>
+            <p>As we wrapped up our trip, these final moments in Chennai gave us time to reflect on the incredible memories we'd made: the 3,550 steps we climbed, the palaces we explored, the New Year's we celebrated under desert stars, and yes, the bumpy jeep rides that reminded us to respect our backs! Until the next adventure...</p>
+          </div>
+          
+          <div class="location-highlights">
+            <h3>Highlights</h3>
+            <ul>
+              <li>Gateway to South India</li>
+              <li>Rich cultural heritage</li>
+              <li>Perfect ending to an incredible journey</li>
+              <li>Time to reflect on 10 amazing days</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="location-gallery">
+
+            <div class="photo-card" data-index="166" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPvNRoms94SXVBymcow0ajTU9qDsHW_qtvmKqC264XuPP3emYIrl0SaUzhhI2DzYgYoPPkKrygDMnsgSQOpbzz97hClJVSkEZvHfIXjljzSTNu0tcus=w400-h300" alt="Chennai - Photo 1" loading="lazy" onclick="openLightbox(166)">
+              <div class="photo-overlay">
+                <span class="photo-number">1</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="167" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczOHD1BL6NNsSV1qozfX94PXFJ4-KPfVbsa6gVTrFwAgSX3I6tpwyeoO3c3yAzjFqAHaV6qtBorlA-Uc46RnimuIfHM_RGJSrKPiJWpuI6DcLiQ2oIPg=w400-h300" alt="Chennai - Photo 2" loading="lazy" onclick="openLightbox(167)">
+              <div class="photo-overlay">
+                <span class="photo-number">2</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="168" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPnME0pRkFHFyz-y6m1rfjTJrZjN8UDBk9WPLvPYASbgsvmRWC7A_BuxAOyR8iiVKtsz5gNMyJquILaYrf-LwCxBeEk1I_sxd3i5-D5NL50WXDgkSlD=w400-h300" alt="Chennai - Photo 3" loading="lazy" onclick="openLightbox(168)">
+              <div class="photo-overlay">
+                <span class="photo-number">3</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="169" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMDXZg8ZNyOR_-9kxTImb9sa3DxdZi1I7HaBdRWFNoBFVSZlUBOcr3lP7J68PE6IY7AMjDjuHjBorNpxtgnVN1_ct7hcXPcciB1fCpB7JbbswEfyO7K=w400-h300" alt="Chennai - Photo 4" loading="lazy" onclick="openLightbox(169)">
+              <div class="photo-overlay">
+                <span class="photo-number">4</span>
+              </div>
+            </div>
+
+            <div class="photo-card video-card" data-index="170" data-type="video">
+              <video src="https://lh3.googleusercontent.com/pw/AP1GczOwKujPxiGkOPzgHyTf1npqnwLdVhUnj7TyCu7mp68q8_IRQcLSRhOVcw_svdZGM1d4CDjIZyuk_h5uONTCL46JaFqreGxZyDE6Gu_myTwXg1TbUiC8=dv" poster="https://lh3.googleusercontent.com/pw/AP1GczOwKujPxiGkOPzgHyTf1npqnwLdVhUnj7TyCu7mp68q8_IRQcLSRhOVcw_svdZGM1d4CDjIZyuk_h5uONTCL46JaFqreGxZyDE6Gu_myTwXg1TbUiC8=w400-h300" preload="metadata" onclick="openLightbox(170)" muted playsinline>
+                Your browser does not support video playback.
+              </video>
+              <div class="video-play-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <div class="photo-overlay">
+                <span class="photo-number">5</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="171" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczPh_edh4vxPzUKQTFaeU9_UwFC4bYZXdVBUTF-5hs-aYzNrhY5fBbfMjcHPoD5BvO3Zq05u3tUzm_lpOig_m_oE-u3klnwGq0A8JlEd8pGcrMUju9JO=w400-h300" alt="Chennai - Photo 6" loading="lazy" onclick="openLightbox(171)">
+              <div class="photo-overlay">
+                <span class="photo-number">6</span>
+              </div>
+            </div>
+
+            <div class="photo-card" data-index="172" data-type="image">
+              <img src="https://lh3.googleusercontent.com/pw/AP1GczMKaKihzZ2IlKH0yISVPdVtYCvl-iY-pCwCiw-wTHl9Yk8SqKCYNrnqB2xuHGM04Wc6o2_TrtB5qEvhJQlmHq52Pm7WvATtjUbhcm2ud5Z3lT8OI6-M=w400-h300" alt="Chennai - Photo 7" loading="lazy" onclick="openLightbox(172)">
+              <div class="photo-overlay">
+                <span class="photo-number">7</span>
+              </div>
+            </div>
+        </div>
+      </section>
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+    <button class="lightbox-nav lightbox-prev" onclick="prevPhoto()">&#10094;</button>
+    <div class="lightbox-content" id="lightbox-content">
+      <img id="lightbox-img" src="" alt="Photo">
+      <video id="lightbox-video" src="" controls style="display:none;"></video>
+    </div>
+    <button class="lightbox-nav lightbox-next" onclick="nextPhoto()">&#10095;</button>
+    <div class="lightbox-counter">
+      <span id="current-index">1</span> / 173
+    </div>
+  </div>
+
+  <footer class="footer">
+    <h2 class="footer-title">Thank You for Joining This Journey</h2>
+    <p>Photo album from <strong>India 2025-26</strong> by Murali Mareedu</p>
+    <p>
+      <a href="https://photos.google.com/u/2/share/AF1QipOij7CKGfbZqnOSLGD4ZJkHCV9VJwDhnf6G5Hj4iaPO60xg1hUG1afVmkEhTOLgqg?key=cFdsbW5pM3VyWHAwMFRLR1R4VGhsX2REUmtJY193" target="_blank" rel="noopener">View original album on Google Photos</a>
+    </p>
+    <p style="margin-top: 1.5rem; color: rgba(255,255,255,0.3);">
+      173 memories captured across six incredible destinations
+    </p>
+  </footer>
+
+  <script>
+    const media = [
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczM5mKTHDhS17ySs4Gnch4094eY5DsOJ6P1iF9--vZLI8RyC-9OaBoYr_VCQzTLBPJvNzm3WxlKifLL8BbdwEeNuxBLL1QrXdIN_Aemeein6VbrxV4XI=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczN0BrRnm4pNiKmFlk_cVmCWEFNL2QTiHQWupayipY9Je4KcgmRG1IAaPjoZZH-KBPci73401QBgnlHwt2_tXb_901MPD4eZ-3OB8dNyWfX9V-CNNEi7=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNtHwcMhLbtruiASn-lMbyP17CwUhQ6chMpnaWdEkYouOOkqYWtpJsWUQoH0joqQLisSE5Fa9yIM7S5UoZ-0ge1rl19TlCS68THg_8TFniDtcQw4nEJ=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczObj7aFIwcLIYyWW3I6kCBB9GB6u_xLmzfuDyx2gCftbzRW9ZxZrEmPadRq4wOo-lf_P9kT4Z4w1cLSlbMOj2RB3LZiz9q_WobtjcyeN9phU881Js97=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPKDmXjkUd4_QuMHkFcQx5J6WcsE3xGNyaI-93RonVGVYrKZuIYIwOZfLRgVs1mKpcts4aElo-qAS5B-NaI5nM-j6hugVh6GwtIQyY5awBoL_RqBos0=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOdLGr1xA9u4CIzAGJBtPnFIosnl_SANzkhH9gRAoC0DDP_d1IVIfS1_ZTqgR_W6R-ziZzRumVe_WcuWy7tE8DhkZ6ZkAdRfFKt4VDQQdgpzZK4zJsE=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNnzLMfezFCVIIxUmsm2MAezwE3ZeIC1juS-GVqnJuRNb9k96UHuVWRi0UvRPgrSgEBm3yfaptScaa4THxFVjLCjzzvAfWxHBQym38ALNd8R6Osn7Zy=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOF-YDt8_PP9VgZIZaKDVn9lXEPTgHopfn5DBiNWOAh4qctltpBGhOxv6pdlrv5M9kc72vb4gPQCUlWhqQJxFVB7BbERYnlZkK7aU7RDRM49EdDDdgL=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPRajXaq-gfMIowVdr2tkNrZEy3Sg-5BiWhJ7brEje2cTdM4n2pxpj8U65bP6tASNp6sOyeeGHLybSYkoZZPvyxdLiM2Hq82zSgU5Yz6k8QmhZI3xiy=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMCenGJ-fLY21cfater-kHXnTV5yoTq56CHzJ6VIFqo8cC6GhmWBFjU6aLyvNbkL84yRmCA9MXgLO1R9ygPNGb27hT71uAYThZZJgng29yGYLTc5-fI=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPgxXwq7ThaVQBfL3Gk3zf6ZNKkJTSBi_RMcsY9GhU3pmUZCxXvRJxwgl4ydvlocBF0PaeICh-ZO4gjFcZGS7IuvYDbZBfNtkWbmKRFKHfEkaL1AW2Q=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczM3p-g8MP87S5ZGX2XtQfUM2Xs4qElpylgzl2XyhiQ97sciPFaFb93nXuK9uk5uWwZtebedG2MgE40Ha3GdKCk6ZhiXTye_jLF-ZZjG-b9rSi0TU1po=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNKLthrUTwX842IbOQefKAXrwe9ETsrSnMclriZRbAu0QmMpa7Q51ZY3QqnnfM2rsbdBFfXLdlQD-h9varvsrdX0caRrUCvC5GqDHlqvWpmEu0c30UL=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPscT317u3JN9-GEoMhAJqtk_EjarKxDXcBBrOtaFBChJlQyu41iuFXkEIPQNbnptdpw2KI8IsA6L-WrhDisMCgPIeW9M67dl9RDvpLEoPmgW7A9heZ=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPgpO-UmJOz0Fg4hZ6MjC9oh61VNpZYHnJ4XZItdZ14WiJWUf8EMGhyHYMnHnufIIB-boCfF5DeLyBOUWGLG-AzG2wMk2LhsLLafaSFdYDTokLaMPv1=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNA3PCVjvII9y8o6Gto8vlUrEE4NDy4lbu6lLlCcPx7VP6oAJj-8Kfht9gG0_4TCVuEqTpzzO9N0HgpxtFFa8GvAgUNwWFx-MOWYoLMSbV8OwNYiT-3=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPVTGsNtJfmedzexzfcLwEAiKQ9JoTmSQMVcjqZavPmsbK3K9C_xCvNl2Gfj-sIizAyVz7SEqhZIcqX3UUaWllRz1HcTbnJKL9XE7nEbAjZBBWG8N0A=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNb96Fpp0Nn_Ay5tKzb27YByRUqNdrOloaEafRujNCyrmRZrl28ZILfhWYDqsygJaFEBnaZXmow3axHN-n1U8jdUUK9pTOmmkUZ3j1jBV_Trr8XV6PH=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPj7ebsIzrqr4_sOp8hRjiuQAJN3aIsLln8V20j-lQZtkjINvl-l0LVL_mGGp-aVAuwsw-cX0-zhD25CEFkQwpH7vm1YAO4LcckLnkSTx_jgTdy3Gxf=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNVu1ivRlL6XOoKU_1ooc1V9qBXvHO1za3CcA3bUEFgZcgStPfmWm48pVDbNosRX-88ktbgEbINaMNGclwYfVYNo3pOrmyEBjSeQd9N43kivcGibRBV=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMikaUzp2vWYiwlX_PUG1378HlXQpiIwedsG4iHCLqrLx8ZVOl8YMtJaEuDz8dN9ewfIqRVDdq1_t-9FjLZb47oPqbjbDjELCo2Nd2SsOxJY6uFNQzw=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczO81FUX-FTD0F1D9Yl97ec-kQyqxPnrU2nsfxPdarKkBBFlGv7mokdZRyMWt1uhDjYyL5UYagAOfeAX5KH8Rj_uSZDGgoUfgbDtBuCBSK9IACtpp5Y_=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczO6ASbx6fZLUHI9R80YBGm8NzaASuSSoCw_xnDNRxqsMC-6jiNMkIhEjB_PAkvIZxYBu21-L95kDVrCCC6PBs5JQRiqelG4QEOIY00w1SO9LlmtgEVk=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczN3-SdfPG9ujRQh0Z-v2ozCg0Lu926wsxSVQZ6gmmWTcdsuJZV_WzHxCF7WOlXcAnjwAW3E7ZtMNLschVHirqUMKPbWNUdQQz_Er5co9gU9pdp0P4rD=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNOuWWFQs9rcPvoPCmWIkja-ipcS_9qXys0lrTdnrstmz8yEtCki0NgPjBizkZoVZ1VAQMT5IgxlFdl2XokfwWTuVcJh_JaUW35Z5PQSGD5jQEzDYAZ=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMcooUsy87o8I5_avyL7-_J0TAMIl7SDenVohsc8QLC23Hz32dj-3sgfLc2faryZenaPWoGZFwLywl9v_48zmLwA6ZJrXvw4mZJTrfhyl3sjCIinTTp=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPaNwgB37s7wJ0-DkGO6ROdc3KFs_SPkhlWjualJlMzr0FAks--5nsM5cStnrjxRZzvq64Y_nRDBs3CmuxrsGJMFv7pLmr0i2J_5W-kWK6GeitG_Cyn=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMcYsOSXxysRBiol0hgMgXCzxomvU6FHq1TP9O-H-4AAoZhwhBbypOZbfBrRheMiUr608sqDrGKOwkRtlsgzBpVbMSKP-hb-kdcKTO4biuT1Z0V_LwS=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMfBDpT1f5lQNdTdXjMc9KLn80SCzQdNMCMN1oCOxcgpPhgA4RHQu2xU66Wr0BH2WaHHIIp-GpMKGQaMrzOUoAYK6jcVFHfRpipit0JuZD-RVFFRrum=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNABcUwdm-qc1vHXpJusv7R5V9h0U7_Ki4D8HX3_iVTVy4PbHFbeUCz-G2XV2h8zYASqLK3lovBksyEKERTkpon40kf4zttMF-HtBxtAN7a566foTYk=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMsC2hFZ7AeMSV72bWnqzR7m6i01fNxKaC8wVI-O9IRNHVLf2YhN_it2cUpjrnPTpj0d-KiusqDC9ZlkD081aYSVSBR03CGeLGMDO_AjO-TeQeF1tvu=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMJLkbKJNiXsdvQtG_7taG97dg-i-Binoa3qAF9k6psLAOvciauA15rbNO0SXDFaVPlz1WpwX_owwHndD6DZCkoxFRjQ8gSPjf8v5lq5jnNDHyVnQHY=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczP5J6FF5uMObIXxY0ZrAJZon3rXhinrTI6gbpm-cS9d9Ya2ED9Z1Cv1v6d1EoGIKSDmlNUrVnHog5Zq0wgNLQobLtUaW33NVP9uoQvcwl21Kq0qh4nK=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNlCsUDA3YyDGzwd6pOoIzm-alcbuW_CpZkMuDF1ZndzhP-KiAxaHso0UFQlSytRj8WZyqTuZFJfXJTvekBJ-yTn1j3jLygZZNsp2HchzBhVs-ZcK1r=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczM-w0Jll5_O1AgHxV8mCrctMwTu3LhRpGcPSntrtFqoSeiImcRa1vOePs2cDfm-pByzJImjTrXOhGzHOVL4QMqM3vlATV74rvNS2FMunjUOHE1z0TDn=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMRPIPLuC8jEE_eEUYfVJjH7H3y-rSuaPwSHdSYLWzW_DED-QvkqGnHKNVcpnfN2eiMrJ2a9dhQntk33VwRPYXTDPnppG3O4uXhGgUt0_jDGgfUxSdy=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMyihb18vDVf8Dl0OFF78UQInEZCzoxL1USTavxX7Ux-tSx5EnsITa68Mc3NX3L0AclhnojCfIj6qI9STMGczSt2CuSfYwWgb5tppoHG5IPtDzXtbZs=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNGz8w1utV76QQQoTvI_0ZeTdtSJjeFGjT_KpKl84dZDDqJbOYgFXCx_JKX8Avc2Zkfmqj8RkCe_IeWxmq1Dha81DgtbllaDYJQed379yXay99z46Qz=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczP5h08XhJygbqj5P2lTCgllGMTHNR-XHMmWz_0BT5Py0UszSEX9wNSSzJYgyH92k2EAtYqpMY8OwqMf3-r18AjB845zu0AAW55V0KBKFVvVTB9g3zkj=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPkG0Em1QD1GS-uYTNHL-kFo1r_vc2Afg5ctmLhLn4H2oXGezEHCuPQXlK0WTB1KEMKhpQU_vHG88xI443itq9Ik2YrsBayYDGJFsqCLrRvPky3UdXJ=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMaWfFpstWOmf9TnZ_IJ-wyDjWmTDxUa53oLxRx1WSkpxW01qrJPoc8bwwYMXpbB1klec0_FzTx3plRhO9OOlWhZl9WVqVEiYWWoMRF7s0J3wFRtVzy=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPJZa3iCbusyh89cr81IGDqIXaXvWWlJCqEGn-1cdndJxg3QU0lcDgc9TE6aMbn8QF64HqoEEtcxGbYapRAD-tlCKJ0JB4tOWPk4aTj6TpCmQ5t2-JD=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPfpbgTUbd67dqQn3GJad05V4DW0mkmis0lQKVBIdOTZ142fyTqsolEF_2cEmDA3AEFIyVkiTXpA_qCanpLPBGGVy9h-lN4Gv9eDa__v_BRZJyZfeIS=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOccEkHsi1MNI79rUE8r1obmF8DJR2nmIP2ILcF9KTq0GWin_IbKlHZ7JwL8wox1usI3Xx1W4oWJXp8KH9NhOE5NZyofdnR9cIdDjlcpLxZLrJIFsqi=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczN94B1zQSdHvAl3Y857bnzlZPAdkr3FQ1L4PqqesE2X0TK6pK2THJQ-BC7-dD_mEJl6AE5kMIKrZB532s3LajbjHsmE4gi8VTovBow4oDE0dKc5gwzL=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczO3Qf3ZXkQBNyX8ZW0QTBbKRVU4kzvRJNQAfwy3dHF49Z6eSSAvfYUBHza8T7VZ3Lp1rp5jjiuafEFswzVETsAj2HOFfGHkMxIb44DFop82Tsy82Pm0=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNubNt92Em0hrgMk1zHXMytc_QigHOPrL8FaMadw2zthJonAh8H_m9oyVDzMGr7LhkBOjq6DY9YuA4Tskzp3EU317hEjNkUNfqpncZyysNArnO39dCY=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNVKgHhjzSslwKxUfqymlTJviOzBRzMQK9kGfZXqRhvgP0DVYWjvDebSTAUL8yx0h9hAbqXQ51xQ7nVqPkzwOxkZzbcLUrGrgdCNQLNYAOtrwY2yAeA=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMF3K46__KWnpIF93pkoFnUiDAV2btif8iWMPJxn66j4ns1bPqIjhUBEP-dr_eMYDNiw4H-iNnFhueVCJz9IaR-8Dd-CorxvpIzzPiPeTUAy3xAl_Fw=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMM_sGxBSDX6wTWHY3iB5Jmv69FF5rSSPCiCcW74wcmGetrp3SwosmqIJkdptFz9duKyEUMGoncYCIjq_yuqVv9mqlzTjmL5qnz-v4UlSyVWLGbEO8o=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPfbuR4ViDs-CYnNXI_0vunvcp46GvmskkxDKzP4Z7LI89m2IoeorXDiLB5LnCNxXhedvkYz5bM7qNKqO63xkWES81dRomOxtlBNSHoxm0HkSPAsnlC=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOkca6zh4kI5G17uactHmPMIJ3CihGIfHNjbb4-6G9rS9sbHXjF9qyo8r0v6x2qeG5YfZ0PdHIIHSaJQxoM2zAFxVzc9wmE1NWgCuu1LJXcrq1MXQm8=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczN0kGPzDeKUJiEA6Ji6W6jS16jvXo0c7_X7oF4bAj_RqqmOkAS1dHe0wuDhjWO2nrVEmefxfF7f0oanT3qw_1lg4DAsv4q7AgTcOSu5QDk9ZcVegXA_=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMT2VtWW0Ho9UyEwClMcoQUl69kI-eTY2mc38zyzEb96I-4xc7SAKieukhxsyH2Nfs-W7tofXCT7WYL-aTVg0_nCNMGwyLuv1hBx5MhO3izKpkBpvk8=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczM_IpaYjRrXDooMvsyUVmTJ3R4kqpXC06bxF8BGz_BlBgjTU3LAs4SKgjN1c2XHssdhxm4KeI26EhQSc2IWQRinrD7FSsheqESn1oeDoAmJBvUh0w_s=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPu-MRnUc_VnKRMg0mTwcCTdFgtMKidoLt1d-KNBc1HLNQn6pvcCX1TffI5kIXXuY29rz1m3xLYYGh7i28yle0artF647V21upSoLqlxQNctvjFXSK8=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOEjJROt8lsULEtrnFcVVNt2si0QpvJLw28rASL53Z6tI-UTjxPHIqSn_sgwCmZuvd-3cgDsmf5y_k1KAUwW3DOAq53gfh3apSHJ8Basuy17BPt9ykb=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczM8hvaZj58Bk19-FqidqNk-CMjXuR-9EdbZznzlLlsbNQAj4Y8vsj-tnTEKJCtlqyHTf6BtypxXgVMdghB2dJNc8a2cW8OOCf6Za8uPdDwSN2hcH7oX=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOsYPd0bBbE97bkJNexeayAuh0XURm9mlh9xBnYtagrYW5nTxDgn216sew_oy5WYPazNwFevAviQ3KZaW3vqiCPBLWsnwv2UYGNPNJqiLroJVEMb4pg=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOcBuRJLYRCmXaNp6niRUHYd61IE33gvTjNopdtvwHKUY1NBtqElNBYh9Sc4VJWaZHFLUf2virzKwpgIiPlirBGWwfeQMbOfjqT0k_FTWFVhAVAv0gl=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNJpLpg7ZGLygRNvvSazP6CwQgfrgcldw1JW_L2L74C7z-iAmmeqZMGUoDQHuD6FM8ciw7pzV2-mjvZSoQHk3WNMQWp5MHxA0Y657--O827_FddQIdr=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOtpKLMRMYKfVG_kwQHBvqU2cFcESUpoPWbTqWsQ7ljACcuENa6uIc5r5f21-1sukgV3Obj7hB3pV_KaiVyozczae6mAcm8YPefos2mSAQRdfyq5C1p=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOfUHjQuKm8xC9TqJ-XLAD3N-KmKb1tl1Ov0iQz0q41ZiP4iWpBIlOcvHTXJPfNVb2LPPuy66HHfLFYSbWbEg2Yi-UobknZKN4ckBMXkBI5mHfOdhW_=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNf0dy_RJdlygT-Q7lQdA6xd9QICI_rONOUW_u_fCuEP4avf8lUgRMU5AtPD4dYo4ajWtDsMfakICtGzClFN9y9rQasKJV08CvxWBQkhgsmZdDwVD53=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczP_XxRqMlC7cYeriOLkHzCm3bP24ZWyfMnNd21v_H8BjXgLt3I-f8lNB9p0zngmLYDwfnbHAvhKVX-MCCX10xvqzm1qpEhiY1j-tetjhwpu6hcZQM8_=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOpwXObjE3cvpNt6KakWHuiS4ePvlbAXc32_l4mwyHLvC8pJF6nBTYvTGz-0nDKnRlHyi8VeWp-87vn9Z0Xnk4T1a4tCUL6Cf-wM1S-VNqAwD826CjJ=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPhThaV90CcFqVSfZIYW9kEOaOSFMqwxjBLB2UVoo4JQ749NO2Z6dkwEjmSjp4v4EZ2xaiwaqL9OwbcBs4dGszf3xm5niyH0ThiEbKoWNbsWV6FCojM=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczM-3wWHFStvONQoeFwT_ffSHCTBLjKBzAvA9IGpT2ArGmCUykK9ahB1iMgUThs3o1vsTWdSHVNc-2J5kUOS25lZECgWW4EH4tJ0X9IFE4mPwbjmMR9z=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMJD7smDigl2SRNbAE5ws6NhPvdtdH-cG95GUS_Lq8CXBqvf_sr5J02vbgQa70xJZJSTBpLJh-c2hp0oCp2pGeyCsXmxskNINcUrElytTwwnbqfpmU9=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOMrvkWSnj_Vg8pNLNc-Rq6Ky2cxmUktV50gO9WrrzhsQbyCsGEgcnca4QxmNNQoapGBiYS7MQScqvWuLZva4O6ApqHqHe1XnA89tKnA50khIFhkmuI=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPcGTn3X-XgKGc7MbIOMqVlinIg-EV1Hh6m8QBdI8KKHFioM_pdL986_D0gPcdm3BtcNTvty0G6ONnhSaV8RSh2KZjAfPTBPtB4kf-n7cgwehmmAdWo=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczM-OIRdZN7l8EzOt1Wbp5B1H94sj7D2TRhK3n3T2cuxblim3jpKDru7dnrsTCJIgIiz1QNK_uJYPy_yHXj3bb9Tsi7yIPaKVNKCgHkqUyRmrQvTPWLN=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPkTlPlImW1PzPHXu4Vj3BQtRofVHZupl0F9qYU0nlur7KhhFmDDL3ZnVASlduUGeQ8wDMnt1WFfjzDLWdwcWFK5oWDF9CCPCqjbD3v8ptTG9VD-Xi-=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPeU2EJ4sNz0iAt07mykLbATY-AgiUnnBNKLJR8o8UQOrTFmQgH9Kt-5zFg1Z7I7JAo-Lv4iIbZZJiYDWVIVgGjr_vwC9bijdy0LAn_usBREPmLYYN7=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPfJEK23YcH0je-tMGzowi5rKIcXk8BxGTPGTn_MSx1c8oyaMVH_9KGlZc1nyir1HUKc6paS260JLRp5U_THwiiDxn-3wQC5u3E_Ytpgu_7t2ZLMsF9=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNntUHflvbZpR7WdQciroMmJEEegWFRPamfZKa0KNWYUE7v1PiNQqkkPuvnYZMhkOlhLvFjagXPmPW9l74vJXsjZtFLcWAfGLPgBZyhVtzE7XmNP04g=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPCB8c52cuq7iO1UcCXnxNtcuI_lY1MAMFfXzXCfx8WbREnH8ph3af7Eqmp4ZPY94q7T8FvURXgxGbjCQgOBj5UuwV9zRcKFltevZHq-XM7btG2yFGC=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOvV6iYtDFGZVWNDWA_5rjCMOKC0OMK31JsAg-WH9c4qDq8rkzNbknmqO-IhQ1tMUSc3iJlZhJOve-_B4KrfsaSLkp-rqTyeoWoCvYMr5PbXJOXLqcV=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOIyLzKaHx7gtBPud5BcsEK0FizUVyimfgQ6pIKlxBJzLszh0ojOjg-yg9MzWIrxIS2M8XDSW_HjbrYpzMht_fWi4xo8sy_ZS7J9MbJMvcaTbwGWzU1=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMuL938iJp_wxV6Zey2M-NibKC_1ist7KO-_RgVwIdqrk8XPcd1jgfVtBB1OKIMl1FpUDeiVPRmRMr8syh93ayTYvuJP2wbPG1yzakkylX8_4P9VIl1=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMVENKGCCmOhbb1R6VJqNdi2ZImQJ-qxslSF1h2M7Na5LnXxA73XtR5UCx6pHqrgNe-7snHNqJEjsUhnmBfOgQG2fLOsoNnNlsMT-FuVCOrMrqtr0JN=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMlTOawQNY0XWvfKJfPcljH-QSaxM_t9oZCqxPzk4yw4vNcqPchpNZBAYPmt1BBAd3DRqOLq6YKp2zmxfeSDOwCmlj3bLCVl_f4DLcmzCaElV3UtIYC=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMc4um5A6Oo9fAqxHC4QY-JvxAPqCUP1pUv7D6uQ2c7x7p2p9mFdyLaZ3eKCxoqS355wYjSxynQbIJJy6knLbnga6ryApFomjaq0ETPMApLP05vaULu=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNBflSn630f_8kinWTLdcb6sPiBpAgTLlG9JWTOoUuHhWCR9qwlgKeU98qt-QAwRXeXosZ0dJ-dJs3plvxuroHL_L2VnlN5MmhEhk4ndR2Pn3hardgB=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPfQv3-OJYE33DVUCNRlHYWgDRqJQfk29saEqjo1n_SEHJasyMxv2mjEdsNqSAMcdUgJURXG6T6PkW9bG0d3cEVpGrxK1LM5h64xvF5WR7WUk3fgZ1z=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOS3UzPdVWigF8z52_u_e-XmOArEQsOegrUuXtuVQYFPjedWqPaZGjJ7v-f8oyxhctcqNQQfwgX-tuJxS9E-sCvaObgUTLwYOVax_cBnYJHlO1Gko8d=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOBOlhBzsHJNvLNxI0EFEIVeoQtbLdcAIwltk_pZufYrpHTLsAhoKmh4n97__uH_ks_ECCCrJFEmfX-ywJt1Z1BBNSggY5d1Ok0rHnHDX9IasuOxUPb=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczO3xb7eQ05v3HOxgNy0Tvt7fphxqehL_PIxUyQtpBSUUQfzV3gYdVAhCr_SoolNt4I-lGNrjlVGLPb6YOE-If9I-r-c3c4L4BjUuTtDDccec4txoCyu=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPIHaLMVezsNBCOUzI3sCpRNqUHg4waUrbqGgccHUEoVU8khisqqIpYqF6STBA0NWP65a9MAhdXXc7OqGFIzbLyIVeXypuOZXyKJ8_JgMwutAPlkYOJ=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNKWBNUzZLkaGfhvAB0f0kRBfBuqgZIRs8SuyFy5sbrtNkxzjP_72yRtkGfTkkJwDVq_WztSZz_5F1JzkYqoyw8XEzKTMrdyuEUyhGkXNcdI9q_U8ku=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMJUl-hqseckp5hgsZcFl9fwTjtFf9GLhSyLGg-a1rLRnsVBAHnKpcs80Y6uy4SXL4HRV-xuHpwaJUyvY2ltiWKYu8e8i6cbF-ytaPv_N23SnDNOMiF=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPZF-8OzgWXq6xDSS-gmtnBFUspFit9YXd9k5xpakGz2_SKy2AnbSveeiu7iBhOid0kJoI-J9cI67cqN0rBA04ObkAkL_BNjnafond2rnVdT3W719iO=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOhWjWLsQji4RImuOwW17NMIIN_F_e5iGtmfcXSFweCAG1Aa5F0MKDhOKlJB2OQIElGrAkFxnQYNBi40632LFoGtZWiz1p1LQZzjSGwHeKzwDUifW1Q=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPrbJU6Czmw7237_GbBFzx55jHd7xB2MIfMnhP_rRjdUnLHsXUfXSzNOCehcbKIjiuy0cLKMlXTXy5CngJlFEkft7BvV_kcHRZK6IvnaFR6O01Mw8zY=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNZjAxLXXGAphbvFBqLrtWCTPQvU7EimeFevz9Bu17DKk9rCFFFZ86ZtDSuQuDjp3seFWSTn4gTycGx93Bo8CSlA2QfAFoXzXRGc3QOFzLO2MoByA0C=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczO8Fi2Llnc1GuDwCHZTg49fZF83rKzeGGwnKbiBSKIz_EK6jax0Xv9Q-xLIqimXc5869p_30FBoZOjGuWbDiAup_2sJtNYbq1KKO5LB5Srx-kDCGUYo=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczN_sBOdXmdCKxGY9p6gBpsOqeqQwfVdzg1lkWmnRzy7Qf6RslMSWt3EcGm4g0lvZCsK29HSdAglALY0mStOeZCuFh5WSqnJGeP9CMpZgvJEVKCtncVt=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNv9Sf3hRAkYGOtmCeaAoGxpDXbGVE4CVTIFWU9qtUzhXQ924yaQwrbdEKQY_H4c26uGtI_cr6enR52sd3JW8I24FLPXV1fT7a5yaLWTPRvQLR-cIN9=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMtE2j_TfN0yAJy7dzp5eeUh-VxLl7EcBocQBwoUFYP8xgtZDfQQ_ZLtWyelMBkFegntu9Wlg_kN01rAw9w0zfnu2sAIw2LNuMTXLPDbK0bMsAp2VT5=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMmPPpI1fbxo2205eyMGjdJXbvUXiGbPNAhfBUXQuCD3dveg46WN9SQ4AZGh3GyafxVQeFo_eHXoH74uXwCM7MMoec9JAQTzDPyOGGUNjTSDkqYXsy8=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczP_jdy2aBqUQ85nvKhfh6WCmxkZHi8TGrrzTlxFoqnWAa5yddN6tTkWh91GQupO6MNdYUWO5ZncmcrrfmLPlUWzF5OCaoMcGGLfgez7rKKzRbGT0Y8T=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNXmoPjh-XnQ8_g2dQuSR6zJIpg3ey-QyBIulOaehlwyQbWFkKD2hzxJy-iLokAIUdo7dJkM8K2m9epm_SjxtfF9YBI-l1WS870JNRg9Ro1UKVCBAmP=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNIKE6cWCl3Tt3dlUpS4_6SyL0PYqAlYeaYJl9tRyFu0rwTgIZ-GjruFt4Kpccmz4inC9Gcex6FbWbqnRkL6fvGV_LTDEOKcbm6npGC3aXVcJn8vlmK=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNwTM7B6wvHuD6-E68U1a4mtDCHmmH0FqNtzYzdImXD6negW6lBAL1cXhHIXPGxT8MAXV70JwM9c15lqGsk7hd1sockaVER-GXDYgbifAoQsFqj48Gw=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPV2rAGy9o1_T0f_1J_rNxYyG4mgDCocruQC8ECJ0u3TXdI5ZnshnYmYZypyXjnwcwdW8JugAmdM7dUmg1nXTmMM7bAZzVRGcrs47Mr_ULuDVQuh_1w=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOTawHVtdtUQnlXhq4oPTmIG7570BSiZI8ae2alCKEoAs0vnp9g1rUPaDgdcKTe2gTqNrO6BoYvnJKamzTRn9lTq7b8C-EEjYo-V7sibERr-SUvhoNZ=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPDlDHqDMeJtRZueVUv2xp3IBgZp-BA6X9G_SbOZjne3fnjQRsjro8YYDTo0u-Ec_mxyZcrRnyZiQwqB0lCU3VS2kf6rSFxey7FjIYlpjw-cOWYcTrH=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNxnBUV05fAi60HiG-PBy48IUasyx6lSjvEj6hrxYXv15PypwGEIvW4ogAUJZ0qqR_fUcgQOZ9Y__-83nhCahPpDW68doDIbTUOyaIH56dgyvlqF0Dc=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOuRFskZm_nUiZmcPoT1fiKRJarW0fI1m6W4mXN2s2hTuPgd4n9fMW0kAwb3ZZM5fXtBvPWw-IWbT_bDo2iS9y-Mnvpyx4bsbanwRC7wCR7SetvYcDQ=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOrUpvfqr4nCQgOpcg5k87I0aNG6JDQoST3fkSXY_uePiNkfxZ2-8l-ILnp2UfkISQGbY_uPRnShR_HozXmdEr4hsMGdXofqUyj96i9IMEco3TOoRfs=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNJI7I9V0ngwaubkXwg3JyN8lRXdgfGO_AIv6B_AHaWiUuBIAo9F8iB_38PT8zTWGReSkuIY2Fa24n7rVLI1juxVI0UXxkH50BH_-6qSATZwsXcQowJ=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczM_qjxY6PYtDGE8S35Yc01lDMb48mN6xNymKWEedNzkxuTBq8AbiCrklWsa75xftuVbkpiyhLL4fC0WsXud7U7zxB0crapcYj7WjS_GpcVaSwRkKh7m=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMViZVE-8snPXFducnMdTrWDMUo_J9zq2CDWsQCUeyhzOoQV5sDT4KfNNMfJ8_6lUnrVat5jfcq62yo5X6-zI8vL8e1RsHgY05pWGeUxz-Loe1uRFJ_=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPv6gjZpRlfW1IEGtxphdXClhR_uUpWYHNF-gcJalWBbC5WZSha_jf8UfxV4_WH3WkUDmvuj31R0Ap0XdLnlRxOiCfH50JtGOvUbOadYdN1aHpq6ZO5=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPrF7SKiYGR1EPLNPGpmZbchUn-zPGIjTpqPbcc22aw7pbbS2r9Tyq7DUxg9dqHuiRoyiF5EX4TwrDVgqpxahd6iFQPBP4J8aGi5ddSEc6DpXVO2hc1=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPrKeyvmsRT2f4hCJcLarGD0GZQEtLcyQNYtxRNwg6zGLy2UCaAQ8IXbfHc8etbM50Nhq2DAJUgjRvvy_SNKoLPnPbAtddxg3UCfJQ3eJKPgcyX099q=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNMmKXUtw1RZ0rEipLAPQq3A-z7BjXHWXuoH1J89vWcYinKjv-ZCI-N_q-zPFpFtENpRqaf3rU2TbqcCUYrCraobUmmIlPAvQU3MwV0MeRyQgAh16eJ=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNXuKj97dQM3LzdzWHlme0vWSupYea9SeNkNBc_0zkl5jZOswMk0X1Bo68dH1ysW3a0g58sShwbJMvnsntCRJdGBrPQjZM4xqT3yz8N9zVpp0Ko5ZPL=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOm-QqvUDF6lyuRwL4T9S29rqNiKO3WwGRaV3Xo0XvRqXgpoF6rfd3aQC0meZ3cnhnND8Bzmc-0KoGju1dLr2rJ2DKciqs5x30gS7MTRoHhszRozwPx=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPde1azVLjmzreNsCMSCNnZ8_IXP_dhUNfynaQtmooH0hLXerUyTJ37FZpEvyP-rEj_O5_pmWHsFKKooqfPwzpzFBfbNlTDH1kFSTN3C8ayr1Mf3JR1=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMHQ1faiyyZ94S7RGibgPdggZaU4wxoKh7UWPmgFZGArC0gClNjYJbz2ziNpFOWQLNrfk3NDxXsc0Z5r-CTPf2tfUPmpLVdb-IvtIcfZn_8QI3KHF9B=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPFSNB4V5poXBenTeGQAINwyIICEnYTNFO3fNOtH2NhccAE-7YerxYCtGLZlB_HzG99CUkrP84LXvcCWrZ1qVZ3MbTzmC_uk1381_qZjzyl3qaAGemB=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMyehgP_d73D2kzIINnsOoqS1CRI0ISkSBUfxZ241TNt4nJtQbm9Zmfs8JQCpIqwuxGbNs89C9QEMwt3fSJ6jF_h4KTJIDbfbJuRDroRJyOAU_FZizX=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNSQO_JycyZugtXL0dMg63hNIArqfIUVTA2N1BP_YVw8m6ybMRbort72TAvxdPz4Zuw7uVBrSyPtci7BDXM4T0AkfPMh-c0L8ZFMu0IYu_veTOxImzO=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPrgkY4V_LP-sjTiZK6XKEn_yD2B27QYeyqc5TECnc6WVjpmNM2Osu7z9RtawfFROxLMkv7vxQAvNgpsH-vhybJ-40nONgcQ9v9Xx28Yf3TC_jvCPxU=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPJ701kgm3QQjY4d3nuHqGTt8uKeWrs1ytI1zN4WqhVyw6KM3IozfNs1O5VRIkZJD2dOiOqNP43DIs08WdRQc4AMhS4QHiYicxGl-3ex2owkaN8O8kb=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNaw3TxOTYiBHzOecbNCv4AMGf572WNJ-EPbqmGsZkahEaebhTlecZI7sXcRKX8o35SVMxAVidKmmY5I6pRYXnFrT44oXpl2U0VRB21PQRwBFMxOoVF=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPl23FFiJgEBSRWzqED02w39Io6vP5away46DCqBkpYxdgrXaE5-96-nUqnhLFsaB2ydcXMl34Exl6cxynXY9lcQ6xMxGXuiMlkyDDgubbJWCV_BmKk=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOxIsMHBYP_uFzp22B9M6U2PuXJV8fqSr8Efn0enX3atST9ly2Pa1PWOF6DXpYvIdrBAaz9pfBoELJ1rJYslU284ZlaCFX1vbeSlELaIRFOVyV0kNpa=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNOT3WPCiPRyIOlZ1vnOF_x5P7uCkFpQTaLROjNvQpWbmKD6Ar4WvLjo5gF0YkCZ7_Je3-zcvRVFYJTA4wOVe2_Vr4_rBe4iPJTCpPwrNlB_drq6VJy=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNO1Qx14EQ_t8wRtjqnchnmCIlNOpgpVTfiNr8UKnIDY70ydPuL0abvrCoyXVZdUXlZIcrMt27nWOHNmJJx9Wb-4Ts8cRW4UUwZMK-v9Ahl8gUa_H1V=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOU1khxUALNkwFz7ksESlmGOw7taKy2_6UO8ccTVSRXHOEkEdXZ-rAvewp77rzmPT0znn9oNvP0Eh8_tzh0TT95OLZ6Z3jIvBrjf3KpNQ5N2hj6ZB8N=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOGO6jce9tDzwmxNGdNzOjgYEMKpa3KV-Xs55YPlnIDHpw1VvWvjMmkeHiOH134Y4Uz8qdkc3MQjb0GE8pDhIv8YoR_9YsdNRbV4qIXdOqfrd3aWyr_=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPIXmzvYb_W6oTzt2K_WDBg9C_IWxv1NspfBrG3iwP9W8WmH9WMD5DoV_7f80XU6gtudqfGtDun_BQ8FlQ-872_r05tF91Rrutn0Go_8fE4T_hy9rpr=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMq0mLCoJL3HabOrA_5ri0JEp80p60VtQU3dtuZ018JpFZxIPvQkPgtADaS-BiimNYPxRbAICJLYhm3DSskJOgWwxpKY_OUc3Ti4fOhEDBtv9rGRaiW=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOViysgvdWxq0iQeTCcv_7ULQ-21YyCQMf74AxkFWYVPRHwQZd5dgKysnlABdM6cbDvkFBIS_hta9iQk1IFley5ADDGGjUr8U7jsGJ8He0WunqmEOdW=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOYtMHuGUAhE8XmbknUrNOAqpNI4etDjADKX_7rEdZOXdnOotVV7phJk101PWzH2ZOAbRcH4rrHEJisN2eRKrFTtRkIyx2mTozte8YlD1AfY07a0X8c=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczN1h_PSawV5BHHkr7oCABobE7d5gDNk1q5uxoJqS0rikFcz3pIwA1zMwwmn0YCDqGt8reqKMkk3nMIoMo3S6qdx68SRTfOXPXPHwByhZxI0mWY4W0EJ=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczP98AIRQ2JCcY226NKx5ZNUS2dCF98XMYFwEm4OghUgCqltSNeTJ-kUrMfz_R7AHia6basxt1bsUT-JPtZYAucFJEocXxDIuSMVyHSVk-ki4P0Omh37=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNqyKi9R-tvUkB7REUvWcSf-v58jHf6V55UhOqV9qgP1Lu0P-IjfhUt84aJVoEBQK0gA6NskzHEXHry1iSmQ24AmeRKnejlDzH1zIxcHtLdXZSINA0G=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczORab6Prf-f1teSFecgKm2rvpGfkomeN7QSO4arPktaiZie0rNlN_7LDGm87wMDVxKytpbxbWj_Q5OzksOe7dCY-NkT4zuQKswI-xTyrG7rHxKIUAri=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczM35aB16zn995H3bj882pOpai5nAgS-tiHbXLTrDvJcowRexf7Ug8oWuk9nGnEASFyzZTCjbJE4f8bg_IkeOqZ4_YTpJxnQ95zTp3CWPJAWHOM6ze0R=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczN8QDfkXBKFa28cD2lYt00fSK9xvcaeygBGS-SKUnrwbMYZcIRpUSlX2h4HYRfUh_J315snoaiqodlaI1pFTqP39i-KN5UgavSRm4laKEmG7DKj4eu7=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOhI6WdHscr5Eh4bAcu18O62o1JEwEQQ9awGI-cqaGbN4oqJYhKtQKwdlWT6npDXyPq7dkPKwDvwTfM0r8USmllQtmU-KN7bgCOe5f_vPGTOIFRA9dH=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczP90QuVs8oL31GRtx0PWN_oFRvqXZvcRtCCjHqz8BDrcviuRWKANW_t1LCdWei5qpjfts3IWGVNUxNnHUpJIp0L_jcss6dEwPbGpypiMuvAledmanfM=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczM3LrrmTIlmbZzNLsRxLf4AW8_86u5xcNvsSnlGOuz23gPBYa8gMa0xzVarRXm65oanjKVjUZiOyIBfsDsrDOYGlZO9Ku1-oKNaSeWRgPmQm8x7vYEv=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczP07SjaENf24_5OGcjEESCgbt0BronIHsrRhtwsMGqec0Pyx-vyj84xgbsMd6tNeFGKw3EQIz8Q1kkd4mV0vyKYYcu1jcieucVnMlpSfsxGaF-PVFuc=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNm4zZopclYoFFh4-EYEtfgenEOVJC3YtTIP69x6suH5IFAogq7PRmmseQcxER-eUAs7Blh4QflLYps69GV3yF4fAOIbSG1LsVkuJkvwKnUqSJah_Ki=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNY6msjgGW7k3Ie7mSFXvmg6NUgxf8ImPuxKz3FSwj0SwJBCzIXJvgwWk1m9KWH2j4T-AHPHwH06Pu2SLuEf9phWXC7N_1NeXaFyZDCMUrds_7sU8Li=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczN1CapGJbzsRo71r4I-D-JpaHGdgncw8BCiJjBj3JgC_WqWx0YAG1ohLK-yzyAPwP9Ut4rBOtYnEIBX-FBzkT391aV6Gs0jxV2v8dtatILN2rqkLcsC=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOShZVQYOLIMXP-6cN9d4x0aalivMm4AiNLOstVtM8dZu2VnwzvVAoMHDhrz6x4nLKSMksI4vmmykooKNZNkuafvkmUgBWR12jHakMGVe5Q4rkUo4jx=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOA4mZuvsD_d7ueZpe-kkD2RnxPE57kNHgfR_KiVOjLjGka3Jus07xNyOVdI5PAJ5tUVOyfpHOspNdIOON8LdQ4KxZa6ij7vxsPHy-hCLUyl7-LUcT7=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOQDfbyw2Fp3Jkc0AK-vaIwu9DDEy-DkkKXEFUno4Lw4ctQ_6YmtnCJwlkkfFS8MITw3v8AxJ6JfyncnER71oRoP9gm82Rnp0pFDIG6Z1cJwCsfSTOp=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPa1ZtW-K7jPRMqBmVXlR5lW06RJnWBhWSBJk9MPFWESL7Fnf2hONwyJ43gytH8YnAkMQBf_zrfHQEM6jHXHph9RSQRaVxfcPjtGzvDAKJhNnj-B4y5=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOLXMa-t50nGfA2RoY90b3cIkfiWHhrUeDN9fpdDaGrruFNYWNRIXP_kBTse5KU9gQMRdgwJ6f-B06mwJ0nuT9KCU7TLLFidrd1udHiePcL98cqG41o=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPlXFyHdlE4CJkvAnpNiqSwVuSsgQI1sf_jJ7cuFzu61wh9TCSyoZBsNBX2gshNkFcykU7F6LaBu_8VPshpa9WMt29BvE9kmbwE4aHttz_eEFu8G64O=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOQ7LrmNHJF7u6DT7rbyUBLIspMl9mziaoUf_QarYHO4VX8tqDa_a0e0P3Uk5LMLAXHG6cPug0ISzUTabL9iLYIXHiM51tXeO1OOtRksjS7jXtkJmb_=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPPq_L_8-HC7koM3_gXRFkAK2faSanqSFEhnKRuEK-vcG6qPP5cpRunP1xSa0wLt5Q5BECjB5O2DTYARgRuwniLWNG7Sa5U-_GSp8nGDlvwH_de_73_=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPu_cccYpTIKhTeeVTDRvWPDrs9ZYt5rK1jn8NHRwU2vAx40B6TjORwN8Q3LNKvTdB7K7o6bSv_Ie8T4D30R4SKZ1U5Zqxg_OmxQwYr6tHlUEmtT9cs=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNZmT18lG2XcWJ1xzMQhJti4a56aJJeJPNhPnZkcDqYqwqp88pxdAK0LigZd7LruAJzNKSjUIemrbXP2a5r0Azr1VHbAvkihPxPXLXsYX_RdHZ8BPX1=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPKLHD0N27ASXrVTQNll8RJ6BILeH_GgdlTFDDO3LQoBiRmCfYw8ESdl82LCr4Vqo2bgtj9DSLhU3ejVAwrNtEESCzpU0t-zhzLo6msN-KLwkwzysco=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMV2KM6KZxxCu7akzXZJfze1sbe2oGBcLYZL9HTchxPpDQwEsKyjCodFnCpCB__OS9u-16wt0l3l6gZXfbv22r8GEFKIWKEFb9DQX2bhdqs-bXBm94S=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczNs0RRgEybqG4_6VyIUMstlhbdGk3QghjC2XHo4iY1TUPLfzV2VwoHFjuaM0gnOnZSgjkDcnmKLtA8d7G24qBQ963QjgLqImEQjbqvftBO4qMVolSE5=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMHsdGVxinZfhbiqWA7nzGqSxbZOFR3MWgpaJVc4oz6jka2RNAZuqxESlWpj2OtwvrsR0MGZYLRfcJ9UDXj4dfek-VAZS8x5f_2P9VN_GXD1pVBCwYA=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczP9YDFkrWQtp5zw3PowAXlzewOwwMEC4q79bI7nqr94UWS3a2zyfewU8qiVjOH9TPUphG8R7JQEaL-ktIwxYvUBLdVAdtq7cIPGaL3Yr7c1rL7Rj2di=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOklC6Kqq99nZVW6IjKpPhjA1EkyrkLCZMuzok-GDqZ2D-7pfAt2TwA-rXOjcx01mnP4_FUJr8TFwQ5M5VwZerhWNEpbO97lpb_un2hOJkNE6pLPjdJ=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPvNRoms94SXVBymcow0ajTU9qDsHW_qtvmKqC264XuPP3emYIrl0SaUzhhI2DzYgYoPPkKrygDMnsgSQOpbzz97hClJVSkEZvHfIXjljzSTNu0tcus=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOHD1BL6NNsSV1qozfX94PXFJ4-KPfVbsa6gVTrFwAgSX3I6tpwyeoO3c3yAzjFqAHaV6qtBorlA-Uc46RnimuIfHM_RGJSrKPiJWpuI6DcLiQ2oIPg=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPnME0pRkFHFyz-y6m1rfjTJrZjN8UDBk9WPLvPYASbgsvmRWC7A_BuxAOyR8iiVKtsz5gNMyJquILaYrf-LwCxBeEk1I_sxd3i5-D5NL50WXDgkSlD=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMDXZg8ZNyOR_-9kxTImb9sa3DxdZi1I7HaBdRWFNoBFVSZlUBOcr3lP7J68PE6IY7AMjDjuHjBorNpxtgnVN1_ct7hcXPcciB1fCpB7JbbswEfyO7K=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczOwKujPxiGkOPzgHyTf1npqnwLdVhUnj7TyCu7mp68q8_IRQcLSRhOVcw_svdZGM1d4CDjIZyuk_h5uONTCL46JaFqreGxZyDE6Gu_myTwXg1TbUiC8=dv", type: "video"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczPh_edh4vxPzUKQTFaeU9_UwFC4bYZXdVBUTF-5hs-aYzNrhY5fBbfMjcHPoD5BvO3Zq05u3tUzm_lpOig_m_oE-u3klnwGq0A8JlEd8pGcrMUju9JO=w1920-h1080", type: "image"},
+    {url: "https://lh3.googleusercontent.com/pw/AP1GczMKaKihzZ2IlKH0yISVPdVtYCvl-iY-pCwCiw-wTHl9Yk8SqKCYNrnqB2xuHGM04Wc6o2_TrtB5qEvhJQlmHq52Pm7WvATtjUbhcm2ud5Z3lT8OI6-M=w1920-h1080", type: "image"}
+    ];
+
+    let currentIndex = 0;
+
+    function openLightbox(index) {
+      currentIndex = index;
+      updateLightboxMedia();
+      document.getElementById('lightbox').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      const video = document.getElementById('lightbox-video');
+      video.pause();
+      document.getElementById('lightbox').classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    function updateLightboxMedia() {
+      const item = media[currentIndex];
+      const img = document.getElementById('lightbox-img');
+      const video = document.getElementById('lightbox-video');
+      
+      video.pause();
+      
+      if (item.type === 'video') {
+        img.style.display = 'none';
+        video.style.display = 'block';
+        video.src = item.url;
+      } else {
+        video.style.display = 'none';
+        img.style.display = 'block';
+        img.src = item.url;
+      }
+      document.getElementById('current-index').textContent = currentIndex + 1;
+    }
+
+    function nextPhoto() {
+      const video = document.getElementById('lightbox-video');
+      video.pause();
+      currentIndex = (currentIndex + 1) % media.length;
+      updateLightboxMedia();
+    }
+
+    function prevPhoto() {
+      const video = document.getElementById('lightbox-video');
+      video.pause();
+      currentIndex = (currentIndex - 1 + media.length) % media.length;
+      updateLightboxMedia();
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (!document.getElementById('lightbox').classList.contains('active')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight') nextPhoto();
+      if (e.key === 'ArrowLeft') prevPhoto();
+    });
+
+    document.getElementById('lightbox').addEventListener('click', (e) => {
+      if (e.target === document.getElementById('lightbox')) {
+        closeLightbox();
+      }
+    });
+
+    // Smooth scroll for navigation
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('href').slice(1);
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
